@@ -45,7 +45,7 @@
 // export default Scripts;
 
 
-
+// ! Add scripts to Index.html file
 import React, { useEffect } from 'react';
 
 function Scripts() {
@@ -59,9 +59,7 @@ function Scripts() {
             // Other Vendor JS Files
             const scripts = [
                 '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-                '/assets/vendor/php-email-form/validate.js',
                 '/assets/vendor/purecounter/purecounter.js',
-                '/assets/vendor/swiper/swiper-bundle.min.js',
                 '/assets/js/main.js',
                 '/assets/include/myJs.js'
             ];
