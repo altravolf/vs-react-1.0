@@ -1,0 +1,22 @@
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-link {
+    color: #0d6efd;
+    font-size: 2rem;
+    border: 1px solid #0d6efd;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+}
+
+
+.icon-link:hover {
+    color: white;
+    background-color: #0d6efd;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+}
