@@ -1,20 +1,6 @@
-import React from 'react';
 import './AboutUs.scss';
 
 function AboutUs() {
-
-    // Our Offerings
-
-    // We provide tailored strategies that play to your strengths and work on your weaknesses. Our courses are priced affordably, ensuring that quality education is accessible to all.
-
-    // Our Support
-
-    // We believe in supporting our students round the clock. Our team is available 24x7 to assist you on your learning journey.
-
-    // Our Philosophy
-
-    // Quality over quantity - that’s our mantra. We strive to deliver the best educational experience rather than focusing on the number of courses or students. At VS Sehrawat Institute, you’re not just a student, you’re family.
-
 
     const cardData = [
         { title: "Our Offerings", des: "We provide tailored strategies that play to your strengths and work on your weaknesses. Our courses are priced affordably, ensuring that quality education is accessible to all" },
@@ -25,8 +11,8 @@ function AboutUs() {
 
     return (
         <div className="AboutUs py-3 container">
-            <div className="display-6 fw-semibold text-center">
-                About Us
+            <div className="display-6 fw-semibold text-center ">
+                <span className="title-underline"> About Us </span>
             </div>
             <div className="des pt-3 ">
                 <p className="lead text-center">
@@ -54,9 +40,9 @@ function AboutUs() {
             <div className="row  justify-content-center px-3 px-md-0">
                 {cardData.map((el, i) => {
                     const cardClassName = `card-${i} text-white`
-                    return <div className="col-12 col-md-4 my-3">
+                    return <div className="col-12 col-md-4 my-3" key={i}>
                         <div className={`card ${cardClassName} shadow h-100`}>
-                            <img src={`/public/img/card-${i}.jpg`} className="card-img-top" alt="..." />
+                            <img src={`/img/card-${i}.jpg`} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{el.title}</h5>
                                 <p className="card-text ">{el.des}</p>
