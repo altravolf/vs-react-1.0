@@ -1,0 +1,6 @@
+@import "./assets/scssVariable.scss";
+
+.title-underline {
+    border-bottom: .1875rem solid $primary-color;
+    border-width: 100%;
+}
