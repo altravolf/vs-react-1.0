@@ -11,9 +11,9 @@ function AboutUs() {
 
     return (
         <div className="AboutUs py-3 container">
-            <div className="display-6 fw-semibold text-center ">
+            <h2 className="display-5 heading fw-semibold text-center ">
                 <span className="title-underline"> About Us </span>
-            </div>
+            </h2>
             <div className="des pt-3 ">
                 <p className="lead text-center">
                     <em className="">

@@ -1,6 +1,33 @@
 @import "./assets/scssVariable.scss";
 
 .title-underline {
-    border-bottom: .1875rem solid $primary-color;
-    border-width: 100%;
+    // border-bottom: .1875rem solid $primary-color;
+    // border-width: 100%;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 80%;
+        height: 1px;
+        background: #ddd;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        // left: calc(50% - 60px);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 25%;
+        height: 3px;
+        background: $primary-color-2;
+        bottom: -1px;
+        // left: calc(50% - 20px);
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
