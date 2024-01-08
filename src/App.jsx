@@ -1,4 +1,5 @@
 import './App.css'
+import AboutUs from "./components/AboutUs/AboutUs"
 import Carousel from "./components/Carousel/Carousel"
 import Header from "./components/Header/Header"
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Carousel />
+      <AboutUs />
     </>
   )
 }
