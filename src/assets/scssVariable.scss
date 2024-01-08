@@ -8,3 +8,13 @@ $white: #fff;
 $color-1: #941b0c;
 $color-2: #014f86;
 $color-3: #ff499e;
+
+// mixin
+
+@mixin transition-in {
+    transition: 0.3s ease-in;
+}
+
+@mixin transition-out {
+    transition: 0.3s ease-out;
+}

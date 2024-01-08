@@ -92,8 +92,6 @@ function Header() {
             <div className="px-3 py-2 text-black border-bottom">
                 <div className="container">
 
-
-
                     {isMobile ? (
                         <div className="d-flex flex-wrap align-items-center justify-content-around">
                             <a href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
