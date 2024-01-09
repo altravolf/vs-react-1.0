@@ -42,7 +42,7 @@ function AboutUs() {
                     const cardClassName = `card-${i} text-white`
                     return <div className="col-12 col-md-4 my-3" key={i}>
                         <div className={`card ${cardClassName} shadow h-100`}>
-                            <img src={`/img/card-${i}.jpg`} className="card-img-top" alt="..." />
+                            <img src={`/img/card-${i}.webp`} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{el.title}</h5>
                                 <p className="card-text ">{el.des}</p>
