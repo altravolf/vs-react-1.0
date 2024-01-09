@@ -40,7 +40,7 @@ function AboutUs() {
             <div className="row  justify-content-center px-3 px-md-0">
                 {cardData.map((el, i) => {
                     const cardClassName = `card-${i} text-white`
-                    return <div className="col-12 col-md-4 my-3" key={i}>
+                    return <div className="col-12 col-md-4 my-3" key={i} data-aos="zoom-in-down" >
                         <div className={`card ${cardClassName} shadow h-100`}>
                             <img src={`/img/card-${i}.webp`} className="card-img-top" alt="..." />
                             <div className="card-body">

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './Courses.scss';
 
+
 function Courses() {
 
     const courses =
@@ -43,6 +44,8 @@ function Courses() {
             }
         ]
 
+
+
     return (
         <div className="Courses py-4 container">
             <h2 className="heading text-center display-5 heading fw-semibold">
@@ -51,7 +54,7 @@ function Courses() {
             <div className="row justify-content-center px-3 px-md-0 mt-3">
 
                 {courses.map((el, i) => {
-                    return <div className="col-12 col-lg-4 col-md-6 my-3 cursor-pointer" key={i}>
+                    return <div className="col-12 col-lg-4 col-md-6 my-3 cursor-pointer" data-aos="zoom-in-down" data-aos-out="zoom-in-up" key={i}>
                         <div className="card h-100" >
                             <img src={`/img/course-${i}.jpg`} className="card-img-top" alt="{i}" />
 
