@@ -1,0 +1,33 @@
+@import "../../assets/scssVariable.scss";
+
+.Courses {
+    .heading {
+        color: $primary-color;
+        cursor: pointer;
+        @include transition-in;
+
+        &:hover {
+            color: $secondary-color;
+            @include transition-out;
+        }
+    }
+
+    .card-body {
+        .card-type {
+            color: $white;
+            background-color: $primary-color;
+            padding: 0.2rem 0.8rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .card-price {
+            font-weight: 600;
+        }
+
+        .card-title {
+            cursor: pointer;
+        }
+
+    }
+}
