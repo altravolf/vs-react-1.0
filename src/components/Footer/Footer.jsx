@@ -32,13 +32,22 @@ function Footer() {
 
                 <div className="d-flex justify-content-center gap-2 ">
                     <div className="icon icon1">
-                        <i className="fa-brands fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/vssehrawatcoachinginstitute/" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-facebook-f"></i>
+                        </a>
                     </div>
                     <div className="icon icon2">
-                        <i className="fa-brands fa-whatsapp"></i>
+                        <a href="https://api.whatsapp.com/send?phone=919050330957" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-whatsapp"></i>
+                        </a>
                     </div>
                     <div className="icon icon3">
-                        <i className="fa-brands fa-youtube"></i>
+                        {/* https://www.instagram.com/vssehrawatinsitute/ */}
+                        <a href="https://www.instagram.com/vssehrawatinsitute/" target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-instagram"></i>
+                        </a>
+
+
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ function AboutUs() {
                 <span className="title-underline"> About Us </span>
             </h2>
             <div className="des pt-3 ">
-                <p className="lead text-center">
+                <p className="lead text-center fw-normal">
                     <em className="">
                         Established in 2015 by Lokesh Sehrawat, the VS Sehrawat Institute is a testament to the legacy of Mr. Ved Prakash Sehrawat. Our institute is more than just an educational institution - we are a family that grows together.
                     </em>

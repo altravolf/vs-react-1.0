@@ -5,6 +5,7 @@
     font-family: poppins;
     background-color: $grey;
     padding: 0;
+    overflow: hidden;
     margin-top: 1rem;
 
     .footer-top {
@@ -33,7 +34,7 @@
     }
 
     .footer-container {
-        padding-top: 2rem;
+        padding: 2rem 0 1rem 0;
 
         p {
             margin-bottom: 0;
@@ -57,12 +58,19 @@
             color: $white;
             padding: 0rem 0.5rem;
             border-radius: 50%;
-            margin: 0.2rem 0;
+            margin: 0.5rem 0;
             @include transition-in;
+
+            cursor: pointer;
 
             &:hover {
                 background-color: $secondary-color;
                 @include transition-out;
+            }
+
+            a {
+                text-decoration: none;
+                color: $white;
             }
         }
     }
