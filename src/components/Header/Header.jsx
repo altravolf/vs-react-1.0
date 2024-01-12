@@ -88,7 +88,7 @@ function Header() {
     };
 
     return (
-        <header className="Header sticky-top bg-white">
+        <header className="Header sticky-top ">
             <div className="px-3 py-2 text-black border-bottom">
                 <div className="container">
 
