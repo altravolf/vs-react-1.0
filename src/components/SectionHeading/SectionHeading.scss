@@ -1,0 +1,14 @@
+@import "../../assets/scssVariable.scss";
+
+.SectionHeading {
+    .heading {
+        color: $primary-color;
+        cursor: pointer;
+        @include transition-in;
+
+        &:hover {
+            color: $secondary-color;
+            @include transition-out;
+        }
+    }
+}
