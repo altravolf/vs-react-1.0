@@ -1,3 +1,4 @@
+import SectionHeading from "../SectionHeading/SectionHeading";
 import './AboutUs.scss';
 
 function AboutUs() {
@@ -11,9 +12,7 @@ function AboutUs() {
 
     return (
         <div className="AboutUs py-3 container mt-3">
-            <h2 className="display-5 heading fw-semibold text-center ">
-                <span className="title-underline"> About Us </span>
-            </h2>
+            <SectionHeading headingText={"About Us"} />
             <div className="des pt-3 ">
                 <p className="lead text-center fw-normal">
                     <em className="">

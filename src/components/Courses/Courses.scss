@@ -1,16 +1,7 @@
 @import "../../assets/scssVariable.scss";
 
 .Courses {
-    .heading {
-        color: $primary-color;
-        cursor: pointer;
-        @include transition-in;
 
-        &:hover {
-            color: $secondary-color;
-            @include transition-out;
-        }
-    }
 
     .card-body {
         .card-type {

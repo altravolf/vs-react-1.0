@@ -4,17 +4,6 @@
 
 .AboutUs {
 
-    .heading {
-        color: $primary-color;
-        cursor: pointer;
-        transition: 0.3s ease-in;
-
-        &:hover {
-            color: $secondary-color;
-            transition: 0.3s ease-out;
-        }
-    }
-
     .des {
         font-family: 'Poppins', sans-serif;
 

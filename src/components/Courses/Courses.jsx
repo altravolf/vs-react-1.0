@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import './Courses.scss';
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 
 function Courses() {
@@ -48,9 +49,9 @@ function Courses() {
 
     return (
         <div className="Courses py-4 container">
-            <h2 className="heading text-center display-5 heading fw-semibold">
-                <span className="title-underline">Popular Courses</span>
-            </h2>
+
+            <SectionHeading headingText={"Popular Courses"} />
+
             <div className="row justify-content-center px-3 px-md-0 mt-3">
 
                 {courses.map((el, i) => {
