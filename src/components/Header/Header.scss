@@ -2,7 +2,7 @@
 
 .Header {
 
-    background-color: $light-blue;
+    background-color: lighten($light-blue, 1.5%);
     transition: background-color 0.3s ease, 0.3s ease;
     // @include transition-out;
 
@@ -11,7 +11,7 @@
     }
 
     &.scrolled {
-        background-color: rgba($light-blue, $alpha: 0.9);
+        background-color: rgba($light-blue, $alpha: 0.96);
 
         .logo {
             width: 5.8rem;
