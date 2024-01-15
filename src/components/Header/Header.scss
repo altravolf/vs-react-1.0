@@ -2,29 +2,33 @@
 
 .Header {
 
-    background-color: $grey;
+    background-color: $light-blue;
     transition: background-color 0.3s ease, 0.3s ease;
     // @include transition-out;
 
+    .border-bottom {
+        border-bottom-color: $light-blue !important;
+    }
+
     &.scrolled {
-        background-color: darken($grey, 25%); // Your desired color for the scrolled state
+        background-color: rgba($light-blue, $alpha: 0.9);
 
         .logo {
             width: 5.8rem;
             @include transition-in;
         }
 
-        .nav-link {
-            color: $white !important;
-            @include transition-in;
+        // .nav-link {
+        //     color: $white !important;
+        //     @include transition-in;
 
-            &:hover {
-                color: $white !important;
-            }
-        }
+        //     &:hover {
+        //         color: $white !important;
+        //     }
+        // }
 
         .border-bottom {
-            border-bottom-color: darken($grey, 35%) !important;
+            border-bottom-color: darken($light-blue, 2%) !important;
         }
     }
 
