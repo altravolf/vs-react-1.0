@@ -3,6 +3,30 @@
 .Header {
 
     background-color: $grey;
+    transition: background-color 0.3s ease, 0.3s ease;
+    // @include transition-out;
+
+    &.scrolled {
+        background-color: darken($grey, 25%); // Your desired color for the scrolled state
+
+        .logo {
+            width: 5.8rem;
+            @include transition-in;
+        }
+
+        .nav-link {
+            color: $white !important;
+            @include transition-in;
+
+            &:hover {
+                color: $white !important;
+            }
+        }
+
+        .border-bottom {
+            border-bottom-color: darken($grey, 35%) !important;
+        }
+    }
 
     .logo {
         width: 7rem;

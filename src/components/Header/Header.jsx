@@ -1,3 +1,5 @@
+// ! remove if not needed
+
 // import "./Header.scss";
 
 // function Header() {
@@ -71,16 +73,31 @@ import './Header.scss';
 function Header() {
     const [isMobile, setIsMobile] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
+    const [scrolling, setScrolling] = useState(false);
 
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 577);
         };
 
-        window.addEventListener('resize', handleResize);
-        setIsMobile(window.innerWidth < 577);
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        };
 
-        return () => window.removeEventListener('resize', handleResize);
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('scroll', handleScroll);
+
+        setIsMobile(window.innerWidth < 577);
+        handleScroll(); // Initial check for scroll position
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
 
     const toggleMenu = () => {
@@ -88,8 +105,8 @@ function Header() {
     };
 
     return (
-        <header className="Header sticky-top ">
-            <div className="px-3 py-2 text-black border-bottom">
+        <header className={`Header sticky-top ${scrolling ? 'scrolled' : ''}`}>
+            <div className={`px-3 py-2 text-black border-bottom ${scrolling ? 'scrolled' : ''}`}>
                 <div className="container">
 
                     {isMobile ? (
