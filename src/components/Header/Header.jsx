@@ -127,7 +127,7 @@ function Header() {
                             {showMenu && (
                                 <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                                     <li>
-                                        <a href="#" className="nav-link">
+                                        <a href="/" className="nav-link">
                                             <div className="nav-icon">
                                                 <i className="fa-solid fa-house"></i>
                                             </div>
@@ -135,7 +135,7 @@ function Header() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" className="nav-link">
+                                        <a href="/about" className="nav-link">
                                             <div className="nav-icon">
                                                 <i className="fa-solid fa-address-card"></i>
                                             </div>
@@ -177,7 +177,7 @@ function Header() {
                             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                                 {/* Your regular navigation items */}
                                 <li>
-                                    <a href="#" className="nav-link">
+                                    <a href="/" className="nav-link">
                                         <div className="nav-icon">
                                             <i className="fa-solid fa-house"></i>
                                         </div>
@@ -185,7 +185,7 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link">
+                                    <a href="/about" className="nav-link">
                                         <div className="nav-icon">
                                             <i className="fa-solid fa-address-card"></i>
                                         </div>
