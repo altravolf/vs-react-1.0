@@ -3,8 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home/Home"
 
-import Footer from "./components/Footer/Footer"
-import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Course from "./pages/Course/Course";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -24,11 +25,13 @@ function App() {
 
   return (
     <>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
-          <Route index element={<Home />} />
+          <Route index path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<Course />} />
 
         </Routes>
       </BrowserRouter>

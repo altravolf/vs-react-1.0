@@ -1,74 +1,6 @@
-// ! remove if not needed
-
-// import "./Header.scss";
-
-// function Header() {
-
-
-//     return (
-//         <header className="Header sticky-top bg-white">
-//             <div className="px-3 py-2 text-black border-bottom">
-//                 <div className="container">
-//                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-//                         <a href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
-//                             <img src="/img/logo.png" className="img-fluid logo" alt="" />
-//                         </a>
-//                         <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-// <li>
-//     <a href="#" className="nav-link">
-//         <div className="nav-icon">
-//             <i className="fa-solid fa-house"></i>
-//         </div>
-//         Home
-//     </a>
-// </li>
-// <li>
-//     <a href="#" className="nav-link">
-//         <div className="nav-icon">
-//             <i className="fa-solid fa-address-card"></i>
-//         </div>
-//         About
-//     </a>
-// </li>
-// <li>
-//     <a href="#" className="nav-link">
-//         <div className="nav-icon">
-//             <i className="fa-brands fa-readme"></i>
-//         </div>
-//         Courses
-//     </a>
-// </li>
-// <li>
-//     <a href="#" className="nav-link">
-//         <div className="nav-icon">
-//             <i className="fa-solid fa-book-open-reader"></i>
-//         </div>
-//         Students
-//     </a>
-// </li>
-// <li>
-//     <a href="#" className="nav-link">
-//         <div className="nav-icon">
-//             <i className="fa-solid fa-phone-volume"></i>
-//         </div>
-//         Contact
-//     </a>
-// </li>
-//                         </ul>
-//                     </div>
-//                 </div>
-//             </div>
-
-//         </header>
-
-//     );
-// }
-
-// export default Header;
-
-
 import { useState, useEffect } from 'react';
 import './Header.scss';
+import NavLinks from "../NavLinks/NavLinks";
 
 function Header() {
     const [isMobile, setIsMobile] = useState(false);
@@ -123,50 +55,8 @@ function Header() {
                                     </span>
                                 </div>
                             </div>
-
                             {showMenu && (
-                                <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                                    <li>
-                                        <a href="/" className="nav-link">
-                                            <div className="nav-icon">
-                                                <i className="fa-solid fa-house"></i>
-                                            </div>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/about" className="nav-link">
-                                            <div className="nav-icon">
-                                                <i className="fa-solid fa-address-card"></i>
-                                            </div>
-                                            About
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="nav-link">
-                                            <div className="nav-icon">
-                                                <i className="fa-brands fa-readme"></i>
-                                            </div>
-                                            Courses
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="nav-link">
-                                            <div className="nav-icon">
-                                                <i className="fa-solid fa-book-open-reader"></i>
-                                            </div>
-                                            Students
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="nav-link">
-                                            <div className="nav-icon">
-                                                <i className="fa-solid fa-phone-volume"></i>
-                                            </div>
-                                            Contact
-                                        </a>
-                                    </li>
-                                </ul>
+                                <NavLinks />
                             )}
                         </div>
                     ) : (
@@ -174,8 +64,8 @@ function Header() {
                             <a href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
                                 <img src="/img/logo.png" className="img-fluid logo" alt="" />
                             </a>
-                            <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                                {/* Your regular navigation items */}
+                            {/* // ! remove if not needed */}
+                            {/* <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                                 <li>
                                     <a href="/" className="nav-link">
                                         <div className="nav-icon">
@@ -193,7 +83,7 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link">
+                                    <a href="/courses" className="nav-link">
                                         <div className="nav-icon">
                                             <i className="fa-brands fa-readme"></i>
                                         </div>
@@ -201,7 +91,7 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link">
+                                    <a href="/students" className="nav-link">
                                         <div className="nav-icon">
                                             <i className="fa-solid fa-book-open-reader"></i>
                                         </div>
@@ -209,14 +99,15 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link">
+                                    <a href="/contact" className="nav-link">
                                         <div className="nav-icon">
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </div>
                                         Contact
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> */}
+                            <NavLinks />
                         </div>
                     )}
                 </div>
