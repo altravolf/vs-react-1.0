@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './Courses.scss';
 import SectionHeading from "../SectionHeading/SectionHeading";
+import PageHeading from "../PageHeading/PageHeading";
 
 
 function Courses() {
@@ -48,9 +49,9 @@ function Courses() {
 
 
     return (
-        <div className="Courses py-4 container">
+        <div className="Courses py-3 mt-3 container">
 
-            <SectionHeading headingText={"Popular Courses"} />
+            {window.location.pathname === "/courses" ? <PageHeading headingText={"Popular Courses"} /> : <SectionHeading headingText={"Popular Courses"} />}
 
             <div className="row justify-content-center px-3 px-md-0 mt-3">
 

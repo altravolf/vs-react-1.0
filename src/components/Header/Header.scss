@@ -18,15 +18,6 @@
             @include transition-in;
         }
 
-        // .nav-link {
-        //     color: $white !important;
-        //     @include transition-in;
-
-        //     &:hover {
-        //         color: $white !important;
-        //     }
-        // }
-
         .border-bottom {
             border-bottom-color: darken($light-blue, 2%) !important;
         }

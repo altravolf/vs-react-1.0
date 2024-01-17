@@ -1,4 +1,5 @@
 import SectionHeading from "../SectionHeading/SectionHeading";
+import PageHeading from "../PageHeading/PageHeading";
 import './AboutUs.scss';
 
 function AboutUs() {
@@ -10,9 +11,11 @@ function AboutUs() {
     ]
 
 
+
     return (
         <div className="AboutUs py-3 container mt-3">
-            <SectionHeading headingText={"About Us"} />
+            {window.location.pathname === "/about" ? <PageHeading headingText={"About Us"} /> : <SectionHeading headingText={"About Us"} />}
+
             <div className="des pt-3 ">
                 <p className="lead text-center fw-normal">
                     <em className="">
