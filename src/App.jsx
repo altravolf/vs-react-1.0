@@ -33,6 +33,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Course />} />
 
+
         </Routes>
       </BrowserRouter>
       <Footer />
