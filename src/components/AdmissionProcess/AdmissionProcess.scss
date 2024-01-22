@@ -1,0 +1,27 @@
+.AdmissionProcess {
+    .text-container {
+        font-family: "Poppins", sans-serif;
+
+        .lead {
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .ol-list {
+            font-size: 1.1rem;
+
+            li {
+                margin-bottom: 0.8rem;
+                font-weight: 300;
+
+                &::marker {
+                    font-weight: 500;
+                }
+
+                strong {
+                    font-weight: 500
+                }
+            }
+        }
+    }
+}
