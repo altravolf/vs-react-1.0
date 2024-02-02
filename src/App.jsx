@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home"
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course/Course";
+import Students from "./pages/Students/Students";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -32,7 +33,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/courses" element={<Course />} />
-
+          <Route path="/students" element={<Students />} />
 
         </Routes>
       </BrowserRouter>
