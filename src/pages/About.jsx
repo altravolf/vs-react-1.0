@@ -1,6 +1,5 @@
-import './About.scss';
 
-import AboutUs from "../../components/AboutUs/AboutUs";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 function About() {
     return (
