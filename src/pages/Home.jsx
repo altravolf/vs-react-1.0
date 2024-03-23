@@ -1,6 +1,7 @@
 import AboutUs from "../components/AboutUs/AboutUs";
 import Courses from "../components/Courses/Courses"
 import Carousel from "../components/Carousel/Carousel"
+import Students from "./Students";
 // import AdmissionProcess from "../../components/AdmissionProcess/AdmissionProcess";
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
             {/* <AdmissionProcess /> */}
             <AboutUs />
             <Courses />
+            <Students />
         </>
     );
 }
