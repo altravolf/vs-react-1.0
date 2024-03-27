@@ -1,7 +1,9 @@
+import LocationMap from "../components/LocationMap/LocationMap";
+
 function Contact() {
     return (
         <div className="Contact">
-            Your component code here
+            <LocationMap />
         </div>
     );
 }
