@@ -1,0 +1,36 @@
+@import "../../assets/scssVariable.scss";
+
+.LocationMap {
+
+    position: relative;
+
+    iframe {
+        width: 100%;
+        height: 21rem;
+    }
+
+    .title {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0.3rem;
+        text-align: center;
+        width: 100%;
+        font-weight: 300;
+        z-index: 33;
+        font-family: "Poppins";
+
+        h2 {
+            color: $secondary-color;
+            font-size: 2.5rem;
+            display: inline-block;
+            /* From https://css.glass */
+            background: rgba(179, 179, 179, 0.14);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 2px solid $grey;
+            padding: 0.1rem 1rem;
+        }
+    }
+}
