@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
+import SiteState from "./context/siteData/SiteState";
 
 function App() {
 
@@ -28,20 +29,22 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route index path="/index.html" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Course />} />
-          <Route path="/students" element={<Students />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<ErrorPage />} />
+      <SiteState>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route index path="/" element={<Home />} />
+            <Route index path="/index.html" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Course />} />
+            <Route path="/students" element={<Students />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<ErrorPage />} />
 
-        </Routes>
-      </BrowserRouter>
+          </Routes>
+        </BrowserRouter>
+      </SiteState>
       <Footer />
     </>
   )

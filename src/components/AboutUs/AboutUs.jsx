@@ -1,16 +1,12 @@
 import SectionHeading from "../SectionHeading/SectionHeading";
 import PageHeading from "../PageHeading/PageHeading";
 import './AboutUs.scss';
+import { useContext } from "react";
+import SiteDataContext from "../../context/siteData/siteDataContext";
 
 function AboutUs() {
 
-    const cardData = [
-        { title: "Our Offerings", des: "We provide tailored strategies that play to your strengths and work on your weaknesses. Our courses are priced affordably, ensuring that quality education is accessible to all" },
-        { title: "Our Support", des: "We believe in supporting our students round the clock. Our team is available 24x7 to assist you on your learning journey" },
-        { title: "Our Philosophy", des: "Quality over quantity - that’s our mantra. We strive to deliver the best educational experience rather than focusing on the number of courses or students. " }
-    ];
-
-
+    const { cardData } = useContext(SiteDataContext);
 
     return (
         <>
