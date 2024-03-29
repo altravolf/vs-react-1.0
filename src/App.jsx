@@ -15,6 +15,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import SiteState from "./context/siteData/SiteState";
+import { SkeletonTheme } from "react-loading-skeleton";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
 
@@ -27,25 +29,30 @@ function App() {
     });
   }, []);
 
+
+
   return (
     <>
-      <SiteState>
-        <BrowserRouter>
-          <Header />
-          <Routes>
-            <Route index path="/" element={<Home />} />
-            <Route index path="/index.html" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/courses" element={<Course />} />
-            <Route path="/students" element={<Students />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<ErrorPage />} />
+      <SkeletonTheme color="#fff" highlightColor="#f5f5f5" >
+        <SiteState>
+          <BrowserRouter>
+            <Header />
+            <ScrollToTop />
+            <Routes>
+              <Route index path="/" element={<Home />} />
+              <Route index path="/index.html" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/courses" element={<Course />} />
+              <Route path="/students" element={<Students />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<ErrorPage />} />
 
-          </Routes>
-        </BrowserRouter>
-      </SiteState>
-      <Footer />
+            </Routes>
+          </BrowserRouter>
+        </SiteState>
+        <Footer />
+      </SkeletonTheme>
     </>
   )
 }
