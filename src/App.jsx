@@ -2,7 +2,6 @@ import './App.scss'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course";
@@ -15,8 +14,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import SiteState from "./context/siteData/SiteState";
-import { SkeletonTheme } from "react-loading-skeleton";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
 
@@ -33,7 +32,7 @@ function App() {
 
   return (
     <>
-      <SkeletonTheme color="#fff" highlightColor="#f5f5f5" >
+      <HelmetProvider>
         <SiteState>
           <BrowserRouter>
             <Header />
@@ -52,7 +51,7 @@ function App() {
           </BrowserRouter>
         </SiteState>
         <Footer />
-      </SkeletonTheme>
+      </HelmetProvider>
     </>
   )
 }
