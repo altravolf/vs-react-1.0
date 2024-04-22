@@ -1,0 +1,75 @@
+@import "../../assets/scssVariable.scss";
+
+
+.ContactForm {
+
+    .form {
+        font-family: 'Poppins', sans-serif;
+
+        .form-control.error {
+            &::placeholder {
+                color: $color-1;
+            }
+        }
+
+        .btn {
+            background-color: $primary-color;
+            border-color: $primary-color;
+            color: $white;
+            @include transition-in;
+
+            &:hover {
+                background-color: $primary-color-2;
+                border-color: $primary-color-2;
+                color: $white;
+                transform: translateY(-2px) scale(1.01);
+                box-shadow: inset 0px -3px 7px -3px #ffffffe8;
+                @include transition-out;
+            }
+        }
+
+    }
+
+
+
+    .action-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+
+
+
+        .icon {
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: $primary-color;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            @include transition-in;
+            font-size: 1.7rem;
+
+            &:hover {
+                background-color: $primary-color-2;
+                @include transition-out;
+                cursor: pointer;
+                transform: translateY(-2px) scale(1.01);
+            }
+        }
+
+
+        .icon-text {
+            color: $primary-color;
+            @include transition-in;
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+
+
+
+        }
+
+    }
+}

@@ -14,11 +14,12 @@ $color-3: #ff499e;
 
 
 // mixin
+$transition-time: 0.2s;
 
 @mixin transition-in {
-    transition: 0.3s ease-in;
+    transition: $transition-time ease-in;
 }
 
 @mixin transition-out {
-    transition: 0.3s ease-out;
+    transition: $transition-time ease-out;
 }
