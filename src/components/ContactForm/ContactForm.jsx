@@ -39,7 +39,7 @@ function ContactForm() {
                     <div className=" d-flex justify-content-center align-items-center gap-5 mt-4">
                         <div className="action-icon">
 
-                            <a href="tel:123456789" className=" text-decoration-none">
+                            <a href="tel:8307747460" className=" text-decoration-none">
                                 <div className="icon">
                                     <i className="fa-solid fa-phone"></i>
                                 </div>
@@ -51,7 +51,7 @@ function ContactForm() {
 
                         <div className="action-icon">
 
-                            <a href="mailto:aBt5i@example.com" className=" text-decoration-none">
+                            <a href="mailto:contact@vs-sehrawat-institute.in" className=" text-decoration-none">
                                 <div className="icon">
                                     <i className="fa-solid fa-envelope"></i>
                                 </div>
@@ -73,19 +73,19 @@ function ContactForm() {
                         <div className="row">
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="from_name">Full Name:</label>
-                                <input className={"form-control" + (errors.from_name ? " error" : "")} placeholder={errors.from_name ? "Enter your name" : "Naresh Trehan"} {...register("from_name", { required: true })} />
+                                <input className={"form-control" + (errors.from_name ? " error" : "")} placeholder={errors.from_name ? "Enter your name" : "e.g. Hitest Sorout"} {...register("from_name", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="email_id">Email:</label>
                                 <input type="email" className={"form-control" + (errors.email_id ? " error" : "")}
-                                    placeholder={errors.email_id ? "Enter your email" : "abcde@example.com"}
+                                    placeholder={errors.email_id ? "Enter your email" : "e.g. abcde@example.com"}
                                     {...register("email_id", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="mobile_no">Mobile No.:</label>
-                                <input className={"form-control" + (errors.mobile_no ? " error" : "")} placeholder={errors.mobile_no ? "Enter your 10 digit mobile number" : "8708331920"}  {...register("mobile_no", { required: true, maxLength: 10, minLength: 10, })} />
+                                <input className={"form-control" + (errors.mobile_no ? " error" : "")} placeholder={errors.mobile_no ? "Enter your 10 digit mobile number" : "e.g. 8708331920"}  {...register("mobile_no", { required: true, maxLength: 10, minLength: 10, })} />
                             </div>
                         </div>
 
