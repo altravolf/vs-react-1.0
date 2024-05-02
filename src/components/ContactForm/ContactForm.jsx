@@ -1,10 +1,34 @@
+/* eslint-disable no-console */
 import './ContactForm.scss';
 import { useForm } from "react-hook-form";
+import { send } from '@emailjs/browser';
+import { useState } from 'react';
+
 
 
 function ContactForm() {
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+
+    const [formStatus, setFormStatus] = useState('idle');
+
+    const onSubmit = (data, e) => {
+        e.preventDefault();
+        setFormStatus('loading');
+
+        send('service_294yd3t', 'template_44bxxdj', data, 'ybbTPRf18mbfO_Hjx')
+            .then((result) => {
+                console.log(result.text);
+                setFormStatus('success');
+            }, (error) => {
+                console.log(error.text);
+                setFormStatus('error');
+            });
+
+        e.target.reset();
+    }
+
+
+
 
     return (
         <div className="ContactForm container mt-5 ">
@@ -48,32 +72,37 @@ function ContactForm() {
 
                         <div className="row">
                             <div className="form-group my-2 col-12 col-lg-4">
-                                <label className="form-label" htmlFor="fullName">Full Name:</label>
-                                <input className={"form-control" + (errors.fullName ? " error" : "")} placeholder={errors.fullName ? "This field is required" : "Naresh Trehan"} {...register("fullName", { required: true })} />
+                                <label className="form-label" htmlFor="from_name">Full Name:</label>
+                                <input className={"form-control" + (errors.from_name ? " error" : "")} placeholder={errors.from_name ? "Enter your name" : "Naresh Trehan"} {...register("from_name", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
-                                <label className="form-label" htmlFor="email">Email:</label>
-                                <input className={"form-control" + (errors.email ? " error" : "")}
-                                    placeholder={errors.email ? "This field is required" : "abcde@example.com"}
-                                    {...register("email", { required: true })} />
+                                <label className="form-label" htmlFor="email_id">Email:</label>
+                                <input type="email" className={"form-control" + (errors.email_id ? " error" : "")}
+                                    placeholder={errors.email_id ? "Enter your email" : "abcde@example.com"}
+                                    {...register("email_id", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
-                                <label className="form-label" htmlFor="mobileNo">Mobile No.:</label>
-                                <input className={"form-control" + (errors.mobileNo ? " error" : "")} placeholder={errors.mobileNo ? "This field is required" : "8708331920"}  {...register("mobileNo", { required: true })} />
+                                <label className="form-label" htmlFor="mobile_no">Mobile No.:</label>
+                                <input className={"form-control" + (errors.mobile_no ? " error" : "")} placeholder={errors.mobile_no ? "Enter your 10 digit mobile number" : "8708331920"}  {...register("mobile_no", { required: true, maxLength: 10, minLength: 10, })} />
                             </div>
                         </div>
 
                         <div className="form-group my-2">
                             <label className="form-label" htmlFor="message">Message:</label>
                             <textarea rows="5" className={"form-control" + (errors.message ? " error" : "")}
-                                placeholder={errors.message ? "This field is required" : "Write your message..."}
+                                placeholder={errors.message ? "Enter your message" : "Write your message..."}
                                 {...register("message", { required: true })} />
                         </div>
 
                         <div className=" mt-3 text-center">
-                            <button type="submit" className="btn btn-primary ">Submit</button>
+                            <button type="submit" className={`btn btn-primary`} disabled={formStatus === 'loading' || formStatus === 'success'}>
+                                {formStatus === 'idle' && 'Submit'}
+                                {formStatus === 'loading' && <i className="fa fa-spinner fa-spin"></i>}
+                                {formStatus === 'success' && 'Sent 👍'}
+                                {formStatus === 'error' && 'Unsuccessful'}
+                            </button>
                         </div>
                     </form>
                 </div>
