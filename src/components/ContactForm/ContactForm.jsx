@@ -31,7 +31,7 @@ function ContactForm() {
 
 
     return (
-        <div className="ContactForm container mt-5 ">
+        <div className="ContactForm container my-5 ">
             <div className="row flex-md-row-reverse align-items-center flex-column">
                 <div className=" col-12 col-md-6 ">
                     <h2 className="text-center">Quickly Reach Us</h2>

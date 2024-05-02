@@ -3,6 +3,8 @@ import Courses from "../components/Courses/Courses"
 import Carousel from "../components/Carousel/Carousel"
 import Students from "./Students";
 import { Helmet } from "react-helmet-async";
+import ContactForm from "../components/ContactForm/ContactForm";
+import SectionHeading from "../components/SectionHeading/SectionHeading";
 // import AdmissionProcess from "../../components/AdmissionProcess/AdmissionProcess";
 
 function Home() {
@@ -25,6 +27,10 @@ function Home() {
             <AboutUs />
             <Courses />
             <Students />
+            <div className="">
+                <SectionHeading headingText="Contact Us" />
+                <ContactForm />
+            </div>
         </>
     );
 }
