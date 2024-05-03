@@ -1,11 +1,14 @@
 import './App.scss'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from 'react';
+
 
 import Home from "./pages/Home";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course";
 import Students from "./pages/Students";
+import PageLoader from "./components/PageLoader/PageLoader";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -17,7 +20,9 @@ import SiteState from "./context/siteData/SiteState";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
 
+
 function App() {
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({
@@ -26,9 +31,19 @@ function App() {
       easing: 'ease-in',
       once: true,
     });
+
+    // Set loading to false when the page has fully loaded
+    window.onload = () => {
+      setLoading(false);
+    };
+
   }, []);
 
 
+
+  if (loading) {
+    return <PageLoader />;
+  }
 
   return (
     <>
@@ -46,14 +61,13 @@ function App() {
               <Route path="/students" element={<Students />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<ErrorPage />} />
-
             </Routes>
           </BrowserRouter>
         </SiteState>
         <Footer />
       </HelmetProvider>
     </>
-  )
+  );
 }
 
 export default App
