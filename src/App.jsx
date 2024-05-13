@@ -38,8 +38,14 @@ function App() {
     // Fallback for any remaining resources
     window.addEventListener('load', handleLoad);
 
-    // Cleanup event listeners
+    // Timeout fallback in case the load event doesn't fire
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Adjust the timeout as needed
+
+    // Cleanup event listeners and timer
     return () => {
+      clearTimeout(timer);
       document.removeEventListener('DOMContentLoaded', handleLoad);
       window.removeEventListener('load', handleLoad);
     };
