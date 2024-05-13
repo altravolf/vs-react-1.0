@@ -32,10 +32,15 @@ function App() {
       once: true,
     });
 
-    // Set loading to false when the page has fully loaded
-    window.onload = () => {
+    // Set loading to false when the DOM content has been fully loaded
+    document.addEventListener('DOMContentLoaded', () => {
       setLoading(false);
-    };
+    });
+
+    // Fallback for any remaining resources
+    window.addEventListener('load', () => {
+      setLoading(false);
+    });
 
   }, []);
 
