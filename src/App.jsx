@@ -21,12 +21,17 @@ import { HelmetProvider } from "react-helmet-async";
 function App() {
   const [loading, setLoading] = useState(true);
 
+  // Initialize AOS
   useEffect(() => {
     AOS.init({
       duration: 300,
       easing: 'ease-in',
       once: true,
     });
+
+    // Adaptive timeout based on device capabilities
+    const adaptiveTimeout = navigator.connection ?
+      (navigator.connection.downlink < 2 ? 10000 : 5000) : 5000;
 
     const handleLoad = () => {
       setLoading(false);
@@ -38,10 +43,10 @@ function App() {
     // Fallback for any remaining resources
     window.addEventListener('load', handleLoad);
 
-    // Timeout fallback in case the load event doesn't fire
+    // Timeout fallback for mobile devices
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the timeout as needed
+    }, adaptiveTimeout);
 
     // Cleanup event listeners and timer
     return () => {
