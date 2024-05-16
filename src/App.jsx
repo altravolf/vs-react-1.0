@@ -1,6 +1,6 @@
 import './App.scss'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from 'react';
+// import { useState } from 'react';
 
 
 import Home from "./pages/Home";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course";
 import Students from "./pages/Students";
-import PageLoader from "./components/PageLoader/PageLoader";
+// import PageLoader from "./components/PageLoader/PageLoader";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -22,7 +22,8 @@ import { HelmetProvider } from "react-helmet-async";
 
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // ! PageLoader removed
+  /* const [loading, setLoading] = useState(true); */
 
   useEffect(() => {
     AOS.init({
@@ -31,25 +32,28 @@ function App() {
       once: true,
     });
 
-    const handleLoad = () => {
-      setLoading(false);
-    };
+    // ! PageLoader removed
+    /*   const handleLoad = () => {
+        setLoading(false);
+      };
+  
+      if (document.readyState === 'complete') {
+        handleLoad();
+      } else {
+        window.addEventListener('load', handleLoad);
+      }
+  
+      // Cleanup event listener
+      return () => {
+        window.removeEventListener('load', handleLoad);
+      }; */
 
-    if (document.readyState === 'complete') {
-      handleLoad();
-    } else {
-      window.addEventListener('load', handleLoad);
-    }
-
-    // Cleanup event listener
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
   }, []);
 
-  if (loading) {
+  // ! PageLoader removed
+  /* if (loading) {
     return <PageLoader />;
-  }
+  } */
 
   return (
     <>
