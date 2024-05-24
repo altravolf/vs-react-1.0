@@ -4,6 +4,9 @@ import { useForm } from "react-hook-form";
 import { send } from '@emailjs/browser';
 import { useState } from 'react';
 
+const serviceKey = import.meta.env.VITE_SERVICE_KEY;
+const templateKey = import.meta.env.VITE_TEMPLATE_KEY;
+const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
 
 function ContactForm() {
@@ -15,7 +18,7 @@ function ContactForm() {
         e.preventDefault();
         setFormStatus('loading');
 
-        send('service_294yd3t', 'template_44bxxdj', data, 'ybbTPRf18mbfO_Hjx')
+        send(serviceKey, templateKey, data, publicKey)
             .then((result) => {
                 console.log(result.text);
                 setFormStatus('success');
