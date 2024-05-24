@@ -8,7 +8,6 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course";
 import Students from "./pages/Students";
-// import PageLoader from "./components/PageLoader/PageLoader";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -22,8 +21,6 @@ import { HelmetProvider } from "react-helmet-async";
 
 
 function App() {
-  // ! PageLoader removed
-  /* const [loading, setLoading] = useState(true); */
 
   useEffect(() => {
     AOS.init({
@@ -31,29 +28,7 @@ function App() {
       easing: 'ease-in',
       once: true,
     });
-
-    // ! PageLoader removed
-    /*   const handleLoad = () => {
-        setLoading(false);
-      };
-  
-      if (document.readyState === 'complete') {
-        handleLoad();
-      } else {
-        window.addEventListener('load', handleLoad);
-      }
-  
-      // Cleanup event listener
-      return () => {
-        window.removeEventListener('load', handleLoad);
-      }; */
-
   }, []);
-
-  // ! PageLoader removed
-  /* if (loading) {
-    return <PageLoader />;
-  } */
 
   return (
     <>
