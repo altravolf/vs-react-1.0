@@ -15,11 +15,6 @@ const SiteState = (props) => {
         { title: "Our Philosophy", des: "Quality over quantity - that’s our mantra. We strive to deliver the best educational experience rather than focusing on the number of courses or students. " }
     ];
 
-
-
-
-
-
     // **************************
     // *** COURSES PAGE DATA ***
     // **************************
@@ -62,9 +57,6 @@ const SiteState = (props) => {
                 "description": "Our Physics NEET course takes you through 11th and 12th grade physics with over 4000 NCERT-based questions. It's your pathway to a great NEET score."
             }
         ]
-
-
-
 
     // **************************
     // *** STUDENTS PAGE DATA ***
@@ -113,10 +105,6 @@ const SiteState = (props) => {
             review: "Achieving great NEET scores was a dream that V.S. Sehrawat Institute helped me realize. Grateful for the guidance!"
         },
     ]
-
-
-
-
 
     return (
         <SiteDataContext.Provider value={{ cardData, courses, studentData }}>
