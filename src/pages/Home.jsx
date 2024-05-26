@@ -13,8 +13,8 @@ function Home() {
         <>
 
             <Helmet>
-                <title>NEET Coaching in Palwal</title>
-                <meta name="description" content="Best NEET coaching faculty available in Palwal. Offering NCERT-based Biology, Chemistry, and Physics courses. Join us for NEET success." />
+                <title>VS Sehrawat Institute | NEET Coaching in Palwal</title>
+                <meta name="description" content="Best NEET coaching faculty available in Palwal. Offering NCERT-based Biology, Chemistry, and Physics courses. Join us for NEET success. " />
                 <meta name="author" content="Altra Volf" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href={window.location.href} />

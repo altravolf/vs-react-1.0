@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Header.scss';
 import NavLinks from "../NavLinks/NavLinks";
+import { Link } from "react-router-dom/dist";
 
 function Header() {
     const [isMobile, setIsMobile] = useState(false);
@@ -43,9 +44,9 @@ function Header() {
 
                     {isMobile ? (
                         <div className="d-flex flex-wrap align-items-center justify-content-around">
-                            <a href="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
+                            <Link to={"/"} className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
                                 <img src="/img/logo.png" className="img-fluid logo" alt="" />
-                            </a>
+                            </Link>
 
 
                             <div className="toggle-bar" onClick={toggleMenu}>
