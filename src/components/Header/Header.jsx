@@ -48,15 +48,18 @@ function Header() {
                             </a>
 
 
-                            <div className="toggle-bar">
-                                <div className="" onClick={toggleMenu}>
+                            <div className="toggle-bar" onClick={toggleMenu}>
+                                <div className="" >
                                     <span>
-                                        <i className="fa-solid fa-bars"></i>
+                                        {showMenu ?
+                                            (<i className="fa-solid fa-xmark"></i>) :
+                                            (<i className="fa-solid fa-bars"></i>)}
+
                                     </span>
                                 </div>
                             </div>
                             {showMenu && (
-                                <NavLinks />
+                                <NavLinks toggleMenu={toggleMenu} />
                             )}
                         </div>
                     ) : (

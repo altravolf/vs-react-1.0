@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import './NavLinks.scss';
 
-function NavLinks() {
+function NavLinks({ toggleMenu }) {
     const [isActive, setIsActive] = useState(window.location.pathname);
     const handleClick = (path) => {
         return setIsActive(path);
     }
     return (
         <>
-            <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small" onClick={toggleMenu}>
 
                 <li>
                     <Link to="/" className={`nav-link ${isActive === '/' ? 'active' : ''} `} onClick={() => handleClick('/')} >
