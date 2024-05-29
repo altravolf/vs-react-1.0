@@ -9,7 +9,7 @@ function NavLinks({ toggleMenu }) {
     }
     return (
         <>
-            <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small" onClick={toggleMenu}>
+            <ul className="nav  my-2 justify-content-center my-md-0 text-small" onClick={toggleMenu}>
 
                 <li>
                     <Link to="/" className={`nav-link ${isActive === '/' ? 'active' : ''} `} onClick={() => handleClick('/')} >

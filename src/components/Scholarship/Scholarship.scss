@@ -1,0 +1,59 @@
+@import "../../assets/scssVariable.scss";
+
+.Scholarship {
+    background-color: $color-2;
+
+    .d-flex {
+        .flex-left {
+            width: 50%;
+
+
+            .title {
+                line-height: 1.2;
+
+                span {
+                    color: $color-4;
+                    -webkit-text-stroke: 1px $white;
+                }
+            }
+
+            .btn-container {
+                button {
+
+                    &:hover {
+                        background-color: $color-2;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .flex-right {
+            max-width: 30%;
+            margin: auto;
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Scholarship {
+        .d-flex {
+            flex-direction: column;
+
+            .flex-left {
+                width: 100%;
+
+                .btn-container {
+                    text-align: center;
+                }
+            }
+
+            .flex-right {
+                max-width: 50%;
+                // display: none;
+            }
+        }
+    }
+}
