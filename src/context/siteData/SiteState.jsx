@@ -1,8 +1,13 @@
 
 
+import { useState } from "react";
 import SiteDataContext from "./siteDataContext";
 
 const SiteState = (props) => {
+
+    const [entry, setEntry] = useState(true);
+    const [quiz, setQuiz] = useState(false);
+    const [result, setResult] = useState(false);
 
 
     // **************************
@@ -107,7 +112,7 @@ const SiteState = (props) => {
     ]
 
     return (
-        <SiteDataContext.Provider value={{ cardData, courses, studentData }}>
+        <SiteDataContext.Provider value={{ cardData, courses, studentData, entry, quiz, result, setEntry, setQuiz, setResult }}>
             {props.children}
         </SiteDataContext.Provider>
     )

@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Course from "./pages/Course";
 import Students from "./pages/Students";
+import ScholarshipTest from "./pages/ScholarshipTest";
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -45,6 +46,7 @@ function App() {
               <Route path="/courses" element={<Course />} />
               <Route path="/students" element={<Students />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/scholarshipTest" element={<ScholarshipTest />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
           </BrowserRouter>
