@@ -46,6 +46,7 @@ function Header() {
                         <div className="d-flex flex-wrap align-items-center justify-content-around">
                             <Link to={"/"} className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
                                 <img src="/img/logo.png" className="img-fluid logo" alt="" />
+                                <h1 className="h1-setup">VS Sehrawat Institute</h1>
                             </Link>
 
 
@@ -66,9 +67,10 @@ function Header() {
                     ) : (
                         <div className="d-flex flex-wrap align-items-center justify-content-between">
                             <div className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
-                                <a href="/" className="">
+                                <Link to={"/"} className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none">
                                     <img src="/img/logo.png" className="img-fluid logo" alt="" />
-                                </a>
+                                    <h1 className="h1-setup">VS Sehrawat Institute</h1>
+                                </Link>
                             </div>
                             <NavLinks />
                         </div>

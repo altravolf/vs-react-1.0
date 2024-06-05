@@ -2,8 +2,13 @@
 
 .Header {
 
+    .h1-setup {
+        font-size: 0;
+    }
+
     background-color: lighten($grey-2, 3%);
-    transition: background-color 0.3s ease, 0.3s ease;
+    transition: background-color 0.3s ease,
+    0.3s ease;
     // @include transition-out;
 
     .border-bottom {
@@ -14,7 +19,7 @@
         background-color: rgba($grey, $alpha: 1);
 
         .logo {
-            width: 5.2rem;
+            width: 5rem;
             @include transition-in;
         }
 
@@ -28,7 +33,7 @@
     }
 
     .logo {
-        width: 7rem;
+        width: 6.2rem;
         display: inline-block;
     }
 
