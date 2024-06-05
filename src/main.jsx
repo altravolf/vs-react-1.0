@@ -8,6 +8,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <SnackbarProvider maxSnack={3}>
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
+    </React.StrictMode>
   </SnackbarProvider>
 )
