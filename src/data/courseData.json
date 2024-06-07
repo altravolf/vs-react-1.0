@@ -1,0 +1,38 @@
+[
+    {
+        "courseType": "NEET COURSE",
+        "price": "₹95,000",
+        "courseTitle": "One Year NEET Course",
+        "description": "Embark on a year-long journey with us to master NEET. This comprehensive course covers Biology, Chemistry, and Physics, tailored to your unique learning style."
+    },
+    {
+        "courseType": "NEET COURSE",
+        "price": "₹1,90,000",
+        "courseTitle": "Two Year NEET Course",
+        "description": "Our two-year NEET program is designed for students in 11th or 12th grade. It's a perfect blend of in-depth knowledge and strong foundational skills."
+    },
+    {
+        "courseType": "NEET CRASH COURSE",
+        "price": "₹40,000",
+        "courseTitle": "Four Month Crash Course",
+        "description": "Boost your NEET preparation with our four-month crash course. It's designed to maximize your scores and confidence in the final stretch."
+    },
+    {
+        "courseType": "Biology Special",
+        "price": "₹35,000/yr",
+        "courseTitle": "Biology NEET",
+        "description": "Our Biology NEET course is a deep dive into 11th and 12th grade biology. With over 4000 NCERT-based questions, it's your ticket to a high NEET score."
+    },
+    {
+        "courseType": "Chemistry Special",
+        "price": "₹35,000/yr",
+        "courseTitle": "Chemistry NEET",
+        "description": "Our Chemistry NEET course is your guide to mastering 11th and 12th grade chemistry. With 4000+ NCERT-based questions, you'll be well-prepared for NEET."
+    },
+    {
+        "courseType": "Physics Special",
+        "price": "₹35,000/yr",
+        "courseTitle": "Physics NEET",
+        "description": "Our Physics NEET course takes you through 11th and 12th grade physics with over 4000 NCERT-based questions. It's your pathway to a great NEET score."
+    }
+]

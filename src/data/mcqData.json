@@ -1,0 +1,1102 @@
+[
+    {
+        "id": 1,
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Ribosomes",
+            "Endoplasmic reticulum"
+        ],
+        "answer": "Mitochondria"
+    },
+    {
+        "id": 2,
+        "question": "Which gas is most abundant in the Earth's atmosphere?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ],
+        "answer": "Nitrogen"
+    },
+    {
+        "id": 3,
+        "question": "What is the chemical formula for methane?",
+        "options": [
+            "CH4",
+            "C2H6",
+            "C3H8",
+            "C4H10"
+        ],
+        "answer": "CH4"
+    },
+    {
+        "id": 4,
+        "question": "What is the principle of the Archimedes’ principle?",
+        "options": [
+            "Density",
+            "Buoyancy",
+            "Surface tension",
+            "Viscosity"
+        ],
+        "answer": "Buoyancy"
+    },
+    {
+        "id": 5,
+        "question": "Which structure in the cell is responsible for protein synthesis?",
+        "options": [
+            "Mitochondria",
+            "Nucleus",
+            "Ribosomes",
+            "Lysosomes"
+        ],
+        "answer": "Ribosomes"
+    },
+    {
+        "id": 6,
+        "question": "What is the pH of a neutral solution?",
+        "options": [
+            "0",
+            "7",
+            "14",
+            "10"
+        ],
+        "answer": "7"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is a vector quantity?",
+        "options": [
+            "Speed",
+            "Distance",
+            "Displacement",
+            "Time"
+        ],
+        "answer": "Displacement"
+    },
+    {
+        "id": 8,
+        "question": "Which part of the brain is responsible for coordination and balance?",
+        "options": [
+            "Cerebrum",
+            "Cerebellum",
+            "Medulla oblongata",
+            "Hypothalamus"
+        ],
+        "answer": "Cerebellum"
+    },
+    {
+        "id": 9,
+        "question": "Which law states that the volume of a gas is inversely proportional to its pressure?",
+        "options": [
+            "Boyle's Law",
+            "Charles's Law",
+            "Gay-Lussac's Law",
+            "Avogadro's Law"
+        ],
+        "answer": "Boyle's Law"
+    },
+    {
+        "id": 10,
+        "question": "What is the function of hemoglobin in the blood?",
+        "options": [
+            "Transport of oxygen",
+            "Blood clotting",
+            "Fighting infections",
+            "Nutrient absorption"
+        ],
+        "answer": "Transport of oxygen"
+    },
+    {
+        "id": 11,
+        "question": "What is the basic unit of genetic information?",
+        "options": [
+            "Protein",
+            "Gene",
+            "Chromosome",
+            "Nucleotide"
+        ],
+        "answer": "Gene"
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is a greenhouse gas?",
+        "options": [
+            "Nitrogen",
+            "Oxygen",
+            "Methane",
+            "Argon"
+        ],
+        "answer": "Methane"
+    },
+    {
+        "id": 13,
+        "question": "What is the chemical symbol for potassium?",
+        "options": [
+            "P",
+            "K",
+            "Pt",
+            "Po"
+        ],
+        "answer": "K"
+    },
+    {
+        "id": 14,
+        "question": "Which plant hormone is responsible for stem elongation?",
+        "options": [
+            "Auxin",
+            "Cytokinin",
+            "Gibberellin",
+            "Ethylene"
+        ],
+        "answer": "Gibberellin"
+    },
+    {
+        "id": 15,
+        "question": "Which type of bond involves the sharing of electron pairs between atoms?",
+        "options": [
+            "Ionic bond",
+            "Covalent bond",
+            "Metallic bond",
+            "Hydrogen bond"
+        ],
+        "answer": "Covalent bond"
+    },
+    {
+        "id": 16,
+        "question": "What is the main component of natural gas?",
+        "options": [
+            "Methane",
+            "Ethane",
+            "Propane",
+            "Butane"
+        ],
+        "answer": "Methane"
+    },
+    {
+        "id": 17,
+        "question": "Which element is essential for the synthesis of thyroxine?",
+        "options": [
+            "Iron",
+            "Iodine",
+            "Calcium",
+            "Magnesium"
+        ],
+        "answer": "Iodine"
+    },
+    {
+        "id": 18,
+        "question": "What is the primary function of the large intestine?",
+        "options": [
+            "Digestion of food",
+            "Absorption of nutrients",
+            "Water absorption",
+            "Enzyme secretion"
+        ],
+        "answer": "Water absorption"
+    },
+    {
+        "id": 19,
+        "question": "Which part of the human body is primarily responsible for detoxification?",
+        "options": [
+            "Kidneys",
+            "Liver",
+            "Lungs",
+            "Pancreas"
+        ],
+        "answer": "Liver"
+    },
+    {
+        "id": 20,
+        "question": "What is the chemical formula for ammonia?",
+        "options": [
+            "NH3",
+            "N2H4",
+            "NH4OH",
+            "NH2"
+        ],
+        "answer": "NH3"
+    },
+    {
+        "id": 21,
+        "question": "What is the primary source of energy for the Earth?",
+        "options": [
+            "The moon",
+            "The sun",
+            "Volcanoes",
+            "Geothermal energy"
+        ],
+        "answer": "The sun"
+    },
+    {
+        "id": 22,
+        "question": "What is the term for the process by which plants lose water vapor through their leaves?",
+        "options": [
+            "Transpiration",
+            "Photosynthesis",
+            "Respiration",
+            "Osmosis"
+        ],
+        "answer": "Transpiration"
+    },
+    {
+        "id": 23,
+        "question": "Which of the following is a polysaccharide?",
+        "options": [
+            "Glucose",
+            "Fructose",
+            "Sucrose",
+            "Cellulose"
+        ],
+        "answer": "Cellulose"
+    },
+    {
+        "id": 24,
+        "question": "What is the unit of electric current?",
+        "options": [
+            "Volt",
+            "Ampere",
+            "Watt",
+            "Ohm"
+        ],
+        "answer": "Ampere"
+    },
+    {
+        "id": 25,
+        "question": "Which of the following vitamins is fat-soluble?",
+        "options": [
+            "Vitamin C",
+            "Vitamin B12",
+            "Vitamin K",
+            "Vitamin B6"
+        ],
+        "answer": "Vitamin K"
+    },
+    {
+        "id": 26,
+        "question": "Which type of cell division results in the formation of gametes?",
+        "options": [
+            "Mitosis",
+            "Meiosis",
+            "Binary fission",
+            "Budding"
+        ],
+        "answer": "Meiosis"
+    },
+    {
+        "id": 27,
+        "question": "What is the pH of an acidic solution?",
+        "options": [
+            "Greater than 7",
+            "Equal to 7",
+            "Less than 7",
+            "Equal to 14"
+        ],
+        "answer": "Less than 7"
+    },
+    {
+        "id": 28,
+        "question": "What is the main function of the xylem in plants?",
+        "options": [
+            "Transport of food",
+            "Transport of water",
+            "Photosynthesis",
+            "Reproduction"
+        ],
+        "answer": "Transport of water"
+    },
+    {
+        "id": 29,
+        "question": "Which process involves the splitting of a heavy nucleus into lighter nuclei?",
+        "options": [
+            "Nuclear fusion",
+            "Nuclear fission",
+            "Radioactive decay",
+            "Electron capture"
+        ],
+        "answer": "Nuclear fission"
+    },
+    {
+        "id": 30,
+        "question": "Which hormone regulates blood sugar levels?",
+        "options": [
+            "Adrenaline",
+            "Thyroxine",
+            "Insulin",
+            "Testosterone"
+        ],
+        "answer": "Insulin"
+    },
+    {
+        "id": 31,
+        "question": "Which of the following is an example of a chemical change?",
+        "options": [
+            "Melting of ice",
+            "Boiling of water",
+            "Rusting of iron",
+            "Dissolving sugar in water"
+        ],
+        "answer": "Rusting of iron"
+    },
+    {
+        "id": 32,
+        "question": "What is the main function of white blood cells?",
+        "options": [
+            "Oxygen transport",
+            "Blood clotting",
+            "Immune response",
+            "Hormone transport"
+        ],
+        "answer": "Immune response"
+    },
+    {
+        "id": 33,
+        "question": "Which of the following elements is a halogen?",
+        "options": [
+            "Sodium",
+            "Chlorine",
+            "Magnesium",
+            "Argon"
+        ],
+        "answer": "Chlorine"
+    },
+    {
+        "id": 34,
+        "question": "What is the SI unit of frequency?",
+        "options": [
+            "Hertz",
+            "Newton",
+            "Pascal",
+            "Watt"
+        ],
+        "answer": "Hertz"
+    },
+    {
+        "id": 35,
+        "question": "Which organelle is known as the 'suicide bag' of the cell?",
+        "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Lysosome"
+        ],
+        "answer": "Lysosome"
+    },
+    {
+        "id": 36,
+        "question": "Which of the following processes does not produce carbon dioxide?",
+        "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Combustion",
+            "Fermentation"
+        ],
+        "answer": "Photosynthesis"
+    },
+    {
+        "id": 37,
+        "question": "Which vitamin is essential for blood clotting?",
+        "options": [
+            "Vitamin A",
+            "Vitamin D",
+            "Vitamin E",
+            "Vitamin K"
+        ],
+        "answer": "Vitamin K"
+    },
+    {
+        "id": 38,
+        "question": "What is the name of the process by which green plants produce their food?",
+        "options": [
+            "Respiration",
+            "Transpiration",
+            "Photosynthesis",
+            "Osmosis"
+        ],
+        "answer": "Photosynthesis"
+    },
+    {
+        "id": 39,
+        "question": "Which of the following is a characteristic of enzymes?",
+        "options": [
+            "They are proteins",
+            "They are used up in reactions",
+            "They work at any temperature",
+            "They do not have a specific shape"
+        ],
+        "answer": "They are proteins"
+    },
+    {
+        "id": 40,
+        "question": "Which gas is released during photosynthesis?",
+        "options": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Methane"
+        ],
+        "answer": "Oxygen"
+    },
+    {
+        "id": 41,
+        "question": "What is the main function of the root hairs in plants?",
+        "options": [
+            "Photosynthesis",
+            "Reproduction",
+            "Absorption of water",
+            "Protection"
+        ],
+        "answer": "Absorption of water"
+    },
+    {
+        "id": 42,
+        "question": "Which part of the human brain controls voluntary actions?",
+        "options": [
+            "Cerebellum",
+            "Medulla oblongata",
+            "Cerebrum",
+            "Hypothalamus"
+        ],
+        "answer": "Cerebrum"
+    },
+    {
+        "id": 43,
+        "question": "Which of the following is not a product of the light-dependent reactions of photosynthesis?",
+        "options": [
+            "ATP",
+            "NADPH",
+            "Oxygen",
+            "Glucose"
+        ],
+        "answer": "Glucose"
+    },
+    {
+        "id": 44,
+        "question": "Which type of radiation has the highest energy?",
+        "options": [
+            "Radio waves",
+            "Microwaves",
+            "Infrared",
+            "Gamma rays"
+        ],
+        "answer": "Gamma rays"
+    },
+    {
+        "id": 45,
+        "question": "What is the primary function of chlorophyll in plants?",
+        "options": [
+            "Absorb water",
+            "Absorb light energy",
+            "Transport nutrients",
+            "Provide structural support"
+        ],
+        "answer": "Absorb light energy"
+    },
+    {
+        "id": 46,
+        "question": "Which organ is responsible for filtering blood and producing urine?",
+        "options": [
+            "Liver",
+            "Lungs",
+            "Heart",
+            "Kidneys"
+        ],
+        "answer": "Kidneys"
+    },
+    {
+        "id": 47,
+        "question": "What is the function of the Golgi apparatus in a cell?",
+        "options": [
+            "Protein synthesis",
+            "Energy production",
+            "Packaging and distribution of proteins",
+            "Lipid synthesis"
+        ],
+        "answer": "Packaging and distribution of proteins"
+    },
+    {
+        "id": 48,
+        "question": "Which element is known as the 'king of chemicals'?",
+        "options": [
+            "Sulfur",
+            "Carbon",
+            "Oxygen",
+            "Hydrogen"
+        ],
+        "answer": "Sulfur"
+    },
+    {
+        "id": 49,
+        "question": "Which of the following is a micronutrient required by plants?",
+        "options": [
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "Zinc"
+        ],
+        "answer": "Zinc"
+    },
+    {
+        "id": 50,
+        "question": "Which force is responsible for keeping the planets in orbit around the sun?",
+        "options": [
+            "Magnetic force",
+            "Electrostatic force",
+            "Gravitational force",
+            "Nuclear force"
+        ],
+        "answer": "Gravitational force"
+    },
+    {
+        "id": 51,
+        "question": "What is the chemical formula for table salt?",
+        "options": [
+            "NaCl",
+            "KCl",
+            "NaBr",
+            "KBr"
+        ],
+        "answer": "NaCl"
+    },
+    {
+        "id": 52,
+        "question": "Which of the following structures is found in plant cells but not in animal cells?",
+        "options": [
+            "Cell membrane",
+            "Nucleus",
+            "Chloroplast",
+            "Mitochondria"
+        ],
+        "answer": "Chloroplast"
+    },
+    {
+        "id": 53,
+        "question": "What is the primary component of the cell membrane?",
+        "options": [
+            "Proteins",
+            "Carbohydrates",
+            "Phospholipids",
+            "Nucleic acids"
+        ],
+        "answer": "Phospholipids"
+    },
+    {
+        "id": 54,
+        "question": "What is the role of stomata in plants?",
+        "options": [
+            "Absorption of water",
+            "Gas exchange",
+            "Nutrient transport",
+            "Photosynthesis"
+        ],
+        "answer": "Gas exchange"
+    },
+    {
+        "id": 55,
+        "question": "Which part of the plant is responsible for the transport of water and nutrients?",
+        "options": [
+            "Leaves",
+            "Flowers",
+            "Roots",
+            "Stem"
+        ],
+        "answer": "Roots"
+    },
+    {
+        "id": 56,
+        "question": "What is the function of the mitochondria in cells?",
+        "options": [
+            "Protein synthesis",
+            "Photosynthesis",
+            "Energy production",
+            "Cell division"
+        ],
+        "answer": "Energy production"
+    },
+    {
+        "id": 57,
+        "question": "Which enzyme breaks down starch into sugar?",
+        "options": [
+            "Protease",
+            "Lipase",
+            "Amylase",
+            "Lactase"
+        ],
+        "answer": "Amylase"
+    },
+    {
+        "id": 58,
+        "question": "What is the basic unit of life?",
+        "options": [
+            "Molecule",
+            "Atom",
+            "Cell",
+            "Organ"
+        ],
+        "answer": "Cell"
+    },
+    {
+        "id": 59,
+        "question": "Which hormone is produced by the adrenal glands?",
+        "options": [
+            "Insulin",
+            "Glucagon",
+            "Adrenaline",
+            "Thyroxine"
+        ],
+        "answer": "Adrenaline"
+    },
+    {
+        "id": 60,
+        "question": "Which type of immunity is provided by vaccination?",
+        "options": [
+            "Innate immunity",
+            "Adaptive immunity",
+            "Passive immunity",
+            "Natural immunity"
+        ],
+        "answer": "Adaptive immunity"
+    },
+    {
+        "id": 61,
+        "question": "What is the atomic number of carbon?",
+        "options": [
+            "6",
+            "8",
+            "12",
+            "14"
+        ],
+        "answer": "6"
+    },
+    {
+        "id": 62,
+        "question": "Which of the following structures is involved in cellular respiration?",
+        "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Chloroplast",
+            "Golgi apparatus"
+        ],
+        "answer": "Mitochondria"
+    },
+    {
+        "id": 63,
+        "question": "What is the process by which green plants convert carbon dioxide and water into glucose and oxygen using sunlight?",
+        "options": [
+            "Respiration",
+            "Photosynthesis",
+            "Transpiration",
+            "Fermentation"
+        ],
+        "answer": "Photosynthesis"
+    },
+    {
+        "id": 64,
+        "question": "Which of the following elements is essential for the formation of hemoglobin?",
+        "options": [
+            "Calcium",
+            "Iron",
+            "Magnesium",
+            "Zinc"
+        ],
+        "answer": "Iron"
+    },
+    {
+        "id": 65,
+        "question": "Which type of bond involves the transfer of electrons from one atom to another?",
+        "options": [
+            "Covalent bond",
+            "Ionic bond",
+            "Hydrogen bond",
+            "Metallic bond"
+        ],
+        "answer": "Ionic bond"
+    },
+    {
+        "id": 66,
+        "question": "Which of the following is not a component of DNA?",
+        "options": [
+            "Adenine",
+            "Guanine",
+            "Cytosine",
+            "Thymine"
+        ],
+        "answer": "Thymine"
+    },
+    {
+        "id": 67,
+        "question": "Which structure in the human body is responsible for producing bile?",
+        "options": [
+            "Pancreas",
+            "Liver",
+            "Gallbladder",
+            "Stomach"
+        ],
+        "answer": "Liver"
+    },
+    {
+        "id": 68,
+        "question": "Which gas is a byproduct of cellular respiration?",
+        "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Methane"
+        ],
+        "answer": "Carbon dioxide"
+    },
+    {
+        "id": 69,
+        "question": "Which of the following is an example of an exothermic reaction?",
+        "options": [
+            "Melting ice",
+            "Boiling water",
+            "Combustion of gasoline",
+            "Photosynthesis"
+        ],
+        "answer": "Combustion of gasoline"
+    },
+    {
+        "id": 70,
+        "question": "Which of the following is a characteristic of prokaryotic cells?",
+        "options": [
+            "Presence of a nucleus",
+            "Absence of a cell membrane",
+            "Presence of membrane-bound organelles",
+            "Smaller in size compared to eukaryotic cells"
+        ],
+        "answer": "Smaller in size compared to eukaryotic cells"
+    },
+    {
+        "id": 71,
+        "question": "Which of the following is an example of a monocot plant?",
+        "options": [
+            "Wheat",
+            "Rice",
+            "Pea",
+            "Bean"
+        ],
+        "answer": "Rice"
+    },
+    {
+        "id": 72,
+        "question": "What is the term for the uptake of water by plant roots?",
+        "options": [
+            "Photosynthesis",
+            "Transpiration",
+            "Osmosis",
+            "Absorption"
+        ],
+        "answer": "Absorption"
+    },
+    {
+        "id": 73,
+        "question": "Which type of tissue in plants is responsible for the transport of water and nutrients?",
+        "options": [
+            "Meristematic tissue",
+            "Dermal tissue",
+            "Ground tissue",
+            "Vascular tissue"
+        ],
+        "answer": "Vascular tissue"
+    },
+    {
+        "id": 74,
+        "question": "What is the process by which plants bend towards sunlight called?",
+        "options": [
+            "Phototropism",
+            "Gravitropism",
+            "Thigmotropism",
+            "Chemotropism"
+        ],
+        "answer": "Phototropism"
+    },
+    {
+        "id": 75,
+        "question": "Which of the following is a greenhouse gas?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Methane",
+            "Carbon monoxide"
+        ],
+        "answer": "Methane"
+    },
+    {
+        "id": 76,
+        "question": "What is the process by which water vapor turns into liquid water?",
+        "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Deposition"
+        ],
+        "answer": "Condensation"
+    },
+    {
+        "id": 77,
+        "question": "Which of the following is a renewable energy source?",
+        "options": [
+            "Coal",
+            "Natural gas",
+            "Solar energy",
+            "Nuclear energy"
+        ],
+        "answer": "Solar energy"
+    },
+    {
+        "id": 78,
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Ag",
+            "Au",
+            "Pb",
+            "Fe"
+        ],
+        "answer": "Au"
+    },
+    {
+        "id": 79,
+        "question": "Which of the following is not a function of the skeletal system?",
+        "options": [
+            "Support",
+            "Protection",
+            "Blood circulation",
+            "Mineral storage"
+        ],
+        "answer": "Blood circulation"
+    },
+    {
+        "id": 80,
+        "question": "Which of the following is a characteristic of acids?",
+        "options": [
+            "Taste sour",
+            "Turn litmus paper blue",
+            "Release hydroxide ions in solution",
+            "Conduct electricity in solution"
+        ],
+        "answer": "Taste sour"
+    },
+    {
+        "id": 81,
+        "question": "What is the SI unit of electric charge?",
+        "options": [
+            "Ampere",
+            "Coulomb",
+            "Volt",
+            "Ohm"
+        ],
+        "answer": "Coulomb"
+    },
+    {
+        "id": 82,
+        "question": "Which of the following is a function of the respiratory system?",
+        "options": [
+            "Transport of nutrients",
+            "Removal of waste products",
+            "Exchange of gases",
+            "Production of hormones"
+        ],
+        "answer": "Exchange of gases"
+    },
+    {
+        "id": 83,
+        "question": "What is the chemical formula for hydrogen peroxide?",
+        "options": [
+            "H2O",
+            "H2O2",
+            "CO2",
+            "NaCl"
+        ],
+        "answer": "H2O2"
+    },
+    {
+        "id": 84,
+        "question": "Which of the following is a hormone produced by the pancreas?",
+        "options": [
+            "Insulin",
+            "Adrenaline",
+            "Thyroxine",
+            "Estrogen"
+        ],
+        "answer": "Insulin"
+    },
+    {
+        "id": 85,
+        "question": "What is the main function of the nervous system?",
+        "options": [
+            "Transport of nutrients",
+            "Exchange of gases",
+            "Regulation and coordination",
+            "Production of hormones"
+        ],
+        "answer": "Regulation and coordination"
+    },
+    {
+        "id": 86,
+        "question": "Which of the following is a noble gas?",
+        "options": [
+            "Oxygen",
+            "Helium",
+            "Nitrogen",
+            "Carbon dioxide"
+        ],
+        "answer": "Helium"
+    },
+    {
+        "id": 87,
+        "question": "What is the process by which plants lose water vapor through their leaves?",
+        "options": [
+            "Transpiration",
+            "Respiration",
+            "Photosynthesis",
+            "Osmosis"
+        ],
+        "answer": "Transpiration"
+    },
+    {
+        "id": 88,
+        "question": "What is the term for the change of state from a gas to a liquid?",
+        "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Deposition"
+        ],
+        "answer": "Condensation"
+    },
+    {
+        "id": 89,
+        "question": "Which of the following is a renewable energy source?",
+        "options": [
+            "Coal",
+            "Natural gas",
+            "Solar energy",
+            "Nuclear energy"
+        ],
+        "answer": "Solar energy"
+    },
+    {
+        "id": 90,
+        "question": "Which of the following is not a characteristic of metals?",
+        "options": [
+            "Malleability",
+            "Conductivity",
+            "Brittleness",
+            "Ductility"
+        ],
+        "answer": "Brittleness"
+    },
+    {
+        "id": 91,
+        "question": "What is the process by which a solid changes directly into a gas?",
+        "options": [
+            "Condensation",
+            "Sublimation",
+            "Evaporation",
+            "Deposition"
+        ],
+        "answer": "Sublimation"
+    },
+    {
+        "id": 92,
+        "question": "Which of the following is a product of the fermentation process?",
+        "options": [
+            "Lactic acid",
+            "Carbon dioxide",
+            "Oxygen",
+            "Water"
+        ],
+        "answer": "Lactic acid"
+    },
+    {
+        "id": 93,
+        "question": "What is the chemical formula for sulfuric acid?",
+        "options": [
+            "H2SO4",
+            "HCl",
+            "NaOH",
+            "HNO3"
+        ],
+        "answer": "H2SO4"
+    },
+    {
+        "id": 94,
+        "question": "Which of the following is a characteristic of bases?",
+        "options": [
+            "Taste sour",
+            "Turn litmus paper red",
+            "Release hydrogen ions in solution",
+            "Conduct electricity in solution"
+        ],
+        "answer": "Turn litmus paper red"
+    },
+    {
+        "id": 95,
+        "question": "What is the chemical formula for ammonia?",
+        "options": [
+            "NH3",
+            "N2H4",
+            "NH4OH",
+            "NH2"
+        ],
+        "answer": "NH3"
+    },
+    {
+        "id": 96,
+        "question": "Which of the following is a function of the circulatory system?",
+        "options": [
+            "Regulation of body temperature",
+            "Exchange of gases",
+            "Digestion of food",
+            "Transport of nutrients and waste"
+        ],
+        "answer": "Transport of nutrients and waste"
+    },
+    {
+        "id": 97,
+        "question": "What is the SI unit of force?",
+        "options": [
+            "Newton",
+            "Joule",
+            "Watt",
+            "Pascal"
+        ],
+        "answer": "Newton"
+    },
+    {
+        "id": 98,
+        "question": "Which of the following is a function of the endocrine system?",
+        "options": [
+            "Exchange of gases",
+            "Regulation of body temperature",
+            "Production of hormones",
+            "Digestion of food"
+        ],
+        "answer": "Production of hormones"
+    },
+    {
+        "id": 99,
+        "question": "What is the term for the loss of electrons from an atom or molecule?",
+        "options": [
+            "Reduction",
+            "Oxidation",
+            "Ionization",
+            "Hydrolysis"
+        ],
+        "answer": "Oxidation"
+    },
+    {
+        "id": 100,
+        "question": "Which of the following is a function of the excretory system?",
+        "options": [
+            "Exchange of gases",
+            "Regulation of body temperature",
+            "Removal of waste products",
+            "Production of hormones"
+        ],
+        "answer": "Removal of waste products"
+    }
+]
