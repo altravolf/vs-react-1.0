@@ -15,7 +15,7 @@ function Scholarship() {
                         </p>
                     </div>
                     <div className="btn-container">
-                        <Link to="/scholarshipTest" className="btn btn-light fs-5 rounded-pill"> Apply Now </Link>
+                        <Link to="/scholarshipTest" className="btn btn-light fs-5 px-4 "> Apply Now </Link>
                     </div>
                 </div>
                 <div className="flex-right">

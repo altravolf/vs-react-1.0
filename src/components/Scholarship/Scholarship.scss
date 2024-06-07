@@ -18,11 +18,14 @@
             }
 
             .btn-container {
-                button {
+                a {
+                    @include transition-in;
 
                     &:hover {
                         background-color: $color-2;
                         color: $white;
+                        border-radius: 2rem;
+                        @include transition-out;
                     }
                 }
             }
