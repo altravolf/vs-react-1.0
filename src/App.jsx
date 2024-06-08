@@ -19,6 +19,7 @@ import ErrorPage from "./pages/ErrorPage";
 import SiteState from "./context/siteData/SiteState";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { HelmetProvider } from "react-helmet-async";
+import PathDetecter from "./components/PathDetecter/PathDetecter";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <BrowserRouter>
             <Header />
             <ScrollToTop />
+            <PathDetecter />
             <Routes>
               <Route index path="/" element={<Home />} />
               <Route index path="/index.html" element={<Home />} />
