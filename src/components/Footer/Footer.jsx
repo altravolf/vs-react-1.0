@@ -1,5 +1,11 @@
 import './Footer.scss';
 
+// Font Awesome Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
     return (
         <div className="Footer container-fluid">
@@ -33,18 +39,19 @@ function Footer() {
                 <div className="d-flex justify-content-center gap-2 ">
                     <div className="icon icon1">
                         <a href="https://www.facebook.com/vssehrawatcoachinginstitute/" target="_blank" rel="noreferrer">
-                            <i className="fa-brands fa-facebook-f"></i>
+                            {/* <i className="fa-brands fa-facebook-f"></i> */}
+                            <FontAwesomeIcon icon={faFacebookF} />
                         </a>
                     </div>
                     <div className="icon icon2">
                         <a href="https://api.whatsapp.com/send?phone=919050330957" target="_blank" rel="noreferrer">
-                            <i className="fa-brands fa-whatsapp"></i>
+                            <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                     </div>
                     <div className="icon icon3">
                         {/* https://www.instagram.com/vssehrawatinsitute/ */}
                         <a href="https://www.instagram.com/vssehrawatinsitute/" target="_blank" rel="noreferrer">
-                            <i className="fa-brands fa-instagram"></i>
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
 
 

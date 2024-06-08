@@ -4,6 +4,13 @@ import { useForm } from "react-hook-form";
 import { send } from '@emailjs/browser';
 import { useState } from 'react';
 
+// Font Awesome Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
+
 const serviceKey = import.meta.env.VITE_SERVICE_KEY;
 const templateKey = import.meta.env.VITE_TEMPLATE_KEY;
 const publicKey = import.meta.env.VITE_PUBLIC_KEY;
@@ -44,7 +51,7 @@ function ContactForm() {
 
                             <a href="tel:8307747460" className=" text-decoration-none">
                                 <div className="icon">
-                                    <i className="fa-solid fa-phone"></i>
+                                    <FontAwesomeIcon icon={faPhone} />
                                 </div>
                             </a>
                             <div className="icon-text">
@@ -56,7 +63,7 @@ function ContactForm() {
 
                             <a href="mailto:contact@vs-sehrawat-institute.in" className=" text-decoration-none">
                                 <div className="icon">
-                                    <i className="fa-solid fa-envelope"></i>
+                                    <FontAwesomeIcon icon={faEnvelope} />
                                 </div>
                             </a>
                             <div className="icon-text">

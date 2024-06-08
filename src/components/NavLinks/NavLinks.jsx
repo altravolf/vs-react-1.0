@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import './NavLinks.scss';
 
+
+// Font Awesome Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faBookOpenReader } from "@fortawesome/free-solid-svg-icons";
+import { faReadme } from "@fortawesome/free-brands-svg-icons";
+import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+
 function NavLinks({ toggleMenu }) {
     const [isActive, setIsActive] = useState(window.location.pathname);
     const handleClick = (path) => {
@@ -14,7 +23,7 @@ function NavLinks({ toggleMenu }) {
                 <li>
                     <Link to="/" className={`nav-link ${isActive === '/' ? 'active' : ''} `} onClick={() => handleClick('/')} >
                         <div className="nav-icon">
-                            <i className="fa-solid fa-house"></i>
+                            <FontAwesomeIcon icon={faHouse} />
                         </div>
                         Home
                     </Link>
@@ -22,7 +31,7 @@ function NavLinks({ toggleMenu }) {
                 <li>
                     <Link to="/about" className={`nav-link ${isActive === '/about' ? 'active' : ''} `} onClick={() => handleClick('/about')}>
                         <div className="nav-icon">
-                            <i className="fa-solid fa-address-card"></i>
+                            <FontAwesomeIcon icon={faAddressCard} />
                         </div>
                         About
                     </Link>
@@ -30,7 +39,7 @@ function NavLinks({ toggleMenu }) {
                 <li>
                     <Link to="/courses" className={`nav-link ${isActive === '/courses' ? 'active' : ''} `} onClick={() => handleClick('/courses')}>
                         <div className="nav-icon">
-                            <i className="fa-brands fa-readme"></i>
+                            <FontAwesomeIcon icon={faReadme} />
                         </div>
                         Courses
                     </Link>
@@ -38,7 +47,7 @@ function NavLinks({ toggleMenu }) {
                 <li>
                     <Link to="/students" className={`nav-link ${isActive === '/students' ? 'active' : ''} `} onClick={() => handleClick('/students')}>
                         <div className="nav-icon">
-                            <i className="fa-solid fa-book-open-reader"></i>
+                            <FontAwesomeIcon icon={faBookOpenReader} />
                         </div>
                         Students
                     </Link>
@@ -46,7 +55,7 @@ function NavLinks({ toggleMenu }) {
                 <li>
                     <Link to="/contact" className={`nav-link ${isActive === '/contact' ? 'active' : ''} `} onClick={() => handleClick('/contact')}>
                         <div className="nav-icon">
-                            <i className="fa-solid fa-phone-volume"></i>
+                            <FontAwesomeIcon icon={faPhoneVolume} />
                         </div>
                         Contact
                     </Link>
