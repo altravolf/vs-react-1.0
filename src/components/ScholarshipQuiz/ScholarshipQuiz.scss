@@ -3,15 +3,15 @@
 .ScholarshipQuiz {
     border: 1px solid $font-grey;
 
-    .quiz-navbar {
-        flex-wrap: wrap;
 
-        .quiz-head-box {
-            background-color: $color-2;
-            color: $white;
-            padding: 1rem 1rem;
-            width: 25%;
-            min-width: fit-content;
+    .main-content {
+
+        .question-container {
+            flex: 1;
+        }
+
+        .tile-container {
+            flex: 1;
         }
     }
 }

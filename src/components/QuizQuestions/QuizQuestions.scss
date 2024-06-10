@@ -1,0 +1,30 @@
+@import "../../assets/scssVariable.scss";
+
+.QuizQuestions {
+    .mainQuestion {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+
+        &::marker {
+            content: attr(data-marker) ". ";
+        }
+
+        .question {
+            min-height: 11.25rem;
+        }
+
+        .options {
+            font-size: 1.1rem;
+            list-style: none;
+
+            .form-check-input {
+
+                &:checked {
+                    background-color: $color-2;
+                    border-color: $color-2;
+                }
+            }
+        }
+    }
+}

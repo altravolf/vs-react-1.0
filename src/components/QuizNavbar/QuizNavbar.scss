@@ -1,0 +1,16 @@
+@import "../../assets/scssVariable.scss";
+
+.QuizNavbar {
+
+    .quiz-navbar {
+        flex-wrap: wrap;
+
+        .quiz-head-box {
+            background-color: $color-2;
+            color: $white;
+            padding: 1rem 1rem;
+            width: 25%;
+            min-width: fit-content;
+        }
+    }
+}
