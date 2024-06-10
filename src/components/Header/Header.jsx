@@ -3,6 +3,11 @@ import './Header.scss';
 import NavLinks from "../NavLinks/NavLinks";
 import { Link } from "react-router-dom/dist";
 
+// Font Awesome Icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 function Header() {
     const [isMobile, setIsMobile] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
@@ -54,8 +59,8 @@ function Header() {
                                 <div className="" >
                                     <span>
                                         {showMenu ?
-                                            (<i className="fa-solid fa-xmark"></i>) :
-                                            (<i className="fa-solid fa-bars"></i>)}
+                                            (<FontAwesomeIcon icon={faXmark} />) :
+                                            (<FontAwesomeIcon icon={faBars} />)}
 
                                     </span>
                                 </div>
