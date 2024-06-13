@@ -28,7 +28,7 @@ function QuizQuestions({ mcqData }) {
             {
                 mcqData.map((mcq, questionIdx) => (
                     <div className="" key={questionIdx}>
-                        <ol className="ol-list">
+                        <ol className="ol-list mb-0">
                             <li className={`mainQuestion ${current !== questionIdx ? "d-none" : ""}`} data-marker={mcq.id}>
 
                                 <div className="question">

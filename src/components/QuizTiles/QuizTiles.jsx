@@ -15,7 +15,7 @@ function QuizTiles({ mcqData }) {
 
 
     return (
-        <div className="QuizTiles d-flex flex-wrap gap-3">
+        <div className="QuizTiles d-flex flex-wrap gap-3 justify-content-center">
             {
                 mcqData.map((mcq, questionIdx) => (
                     <div className={`tile ${current === questionIdx ? "active" : ""} ${selectedAnswer[mcq.id] ? "selected" : ""}`} key={questionIdx} onClick={() => onTileClick(questionIdx)}>

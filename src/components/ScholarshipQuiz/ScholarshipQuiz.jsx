@@ -11,7 +11,7 @@ function ScholarshipQuiz() {
     return (
         <div className="ScholarshipQuiz rounded mt-3 shadow">
             <QuizNavbar mcqData={mcqData} />
-            <div className="main-content d-flex flex-column flex-md-row gap-3 mx-3 my-3">
+            <div className="main-content d-flex flex-column flex-lg-row gap-3 mx-3 my-3">
                 <div className="question-container">
                     <QuizQuestions mcqData={mcqData} />
                 </div>
