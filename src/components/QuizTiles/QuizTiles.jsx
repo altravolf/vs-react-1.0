@@ -1,9 +1,28 @@
 import './QuizTiles.scss';
+import { useContext } from "react";
+import SiteDataContext from "../../context/siteData/siteDataContext";
 
-function QuizTiles() {
+function QuizTiles({ mcqData }) {
+
+    const { current, setCurrent, selectedAnswer } = useContext(SiteDataContext);
+
+    const onTileClick = (questionIdx) => {
+        setCurrent(questionIdx);
+    }
+
+
+
+
+
     return (
-        <div className="QuizTiles">
-            Your QuizTiles component is here
+        <div className="QuizTiles d-flex flex-wrap gap-3">
+            {
+                mcqData.map((mcq, questionIdx) => (
+                    <div className={`tile ${current === questionIdx ? "active" : ""} ${selectedAnswer[mcq.id] ? "selected" : ""}`} key={questionIdx} onClick={() => onTileClick(questionIdx)}>
+                        {mcq.id}
+                    </div>
+                ))
+            }
         </div>
     );
 }

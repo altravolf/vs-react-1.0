@@ -4,7 +4,7 @@ import SiteDataContext from "../../context/siteData/siteDataContext";
 
 function QuizQuestions({ mcqData }) {
 
-    const { current, setCurrent } = useContext(SiteDataContext);
+    const { current, setCurrent, selectedAnswer, setSelectedAnswer } = useContext(SiteDataContext);
 
     const onPrev = () => {
         setCurrent(current - 1);
@@ -14,11 +14,20 @@ function QuizQuestions({ mcqData }) {
         setCurrent(current + 1);
     }
 
+    const onSelectAnswer = (questionId, selectedOption) => {
+        setSelectedAnswer(() => {
+            return {
+                ...selectedAnswer,
+                [questionId]: selectedOption
+            }
+        })
+    }
+
     return (
         <div className="QuizQuestions">
             {
                 mcqData.map((mcq, questionIdx) => (
-                    <div className="my-3" key={questionIdx}>
+                    <div className="" key={questionIdx}>
                         <ol className="ol-list">
                             <li className={`mainQuestion ${current !== questionIdx ? "d-none" : ""}`} data-marker={mcq.id}>
 
@@ -27,12 +36,12 @@ function QuizQuestions({ mcqData }) {
 
                                     <ol className="options ps-0">
                                         {mcq.options.map((option, optionIdx) => (
-                                            <li key={optionIdx} className="option form-check">
+                                            <li key={optionIdx} className="option form-check" onClick={() => onSelectAnswer(mcq.id, option)}>
                                                 <input
                                                     className="form-check-input"
                                                     type="radio"
                                                     name={`options-${questionIdx}`}
-                                                    id={`option-${questionIdx}-${optionIdx}`}
+                                                    id={`option-${questionIdx}-${optionIdx}`} value={option}
                                                 />
                                                 <label
                                                     className="form-check-label"

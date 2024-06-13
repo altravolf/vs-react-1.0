@@ -13,10 +13,11 @@ const SiteState = (props) => {
     const [quiz, setQuiz] = useState(false);
     const [result, setResult] = useState(false);
     const [current, setCurrent] = useState(0);
+    const [selectedAnswer, setSelectedAnswer] = useState({});
 
 
     return (
-        <SiteDataContext.Provider value={{ cardData, courses, studentData, entry, quiz, result, setEntry, setQuiz, setResult, mcqData, current, setCurrent }}>
+        <SiteDataContext.Provider value={{ cardData, courses, studentData, entry, quiz, result, setEntry, setQuiz, setResult, mcqData, current, setCurrent, selectedAnswer, setSelectedAnswer }}>
             {props.children}
         </SiteDataContext.Provider>
     )

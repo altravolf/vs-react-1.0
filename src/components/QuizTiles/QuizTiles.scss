@@ -1,3 +1,35 @@
+@import "../../assets/scssVariable.scss";
+
 .QuizTiles {
-    /* Your component styles here */
+
+    .tile {
+        width: 2.7rem;
+        height: 2.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darken($grey, 10%);
+        @include transition-in;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 5px;
+        font-size: 1.05rem;
+
+        &:hover {
+            background-color: darken($grey, 20%);
+            @include transition-out;
+        }
+
+        &.active {
+            background-color: $color-2;
+            color: $white;
+            @include transition-out;
+        }
+
+        &.selected {
+            background-color: lighten($successful-color, 10%);
+            color: $white;
+            @include transition-out;
+        }
+    }
 }
