@@ -4,12 +4,14 @@ import SiteDataContext from "../../context/siteData/siteDataContext";
 import QuizNavbar from "../QuizNavbar/QuizNavbar";
 import QuizQuestions from "../QuizQuestions/QuizQuestions";
 import QuizTiles from "../QuizTiles/QuizTiles";
+import QuizModal from "../QuizModal/QuizModal";
 
 function ScholarshipQuiz() {
-    const { mcqData, setResult } = useContext(SiteDataContext);
+    const { mcqData, setResult, setQuiz } = useContext(SiteDataContext);
 
     const onSubmitResult = () => {
         setResult(true);
+        setQuiz(false);
     }
 
     return (
@@ -23,8 +25,9 @@ function ScholarshipQuiz() {
                     <QuizTiles mcqData={mcqData} />
                 </div>
             </div>
+            <QuizModal onSubmitResult={onSubmitResult} />
             <div className="text-center">
-                <button className="btn btn-success" type="button" onClick={onSubmitResult}> Submit </button>
+                <button className="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Submit </button>
             </div>
         </div>
     );
