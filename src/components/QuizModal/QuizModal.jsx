@@ -14,7 +14,7 @@ function QuizModal({ onSubmitResult }) {
                             Are you sure you want to submit the test?
                         </div>
                         <div className="modal-footer dflex justify-content-center">
-                            <button type="button" className="btn btn-success" onClick={onSubmitResult}>Yes</button>
+                            <button type="button" className="btn btn-success" onClick={onSubmitResult} data-bs-dismiss="modal">Yes</button>
                             <button type="button" className="btn btn-danger" data-bs-dismiss="modal">No</button>
                         </div>
                     </div>
