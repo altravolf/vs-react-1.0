@@ -19,6 +19,7 @@ function ScholarshipEntry() {
         enqueueSnackbar(`Welcome ${data.name}!`, { variant: 'success', autoHideDuration: 2000, anchorOrigin: { vertical: 'top', horizontal: 'center' } });
         setEntry(false);
         setQuiz(true);
+        window.scrollTo(0, 0);
     }
 
     return (

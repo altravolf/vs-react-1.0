@@ -14,6 +14,7 @@ function ScholarshipQuiz() {
         setResult(true);
         setQuiz(false);
         enqueueSnackbar('Test Submitted Successfully!', { variant: 'success', autoHideDuration: 2000, anchorOrigin: { vertical: 'top', horizontal: 'center' } });
+        window.scrollTo(0, 0);
     }
 
     return (
