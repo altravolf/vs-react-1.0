@@ -1,6 +1,8 @@
 import './QuizNavbar.scss';
+import CountdownTimer from "../CountdownTimer/CountdownTimer";
 
 function QuizNavbar({ mcqData }) {
+
     return (
         <div className="QuizNavbar w-100">
             <div className="quiz-navbar row  mx-auto text-center ">
@@ -18,7 +20,7 @@ function QuizNavbar({ mcqData }) {
                 </div>
                 <div className="fs-5 quiz-head-box col-6 col-md-3">
                     <div className="fw-bold">Time Left</div>
-                    <div className="">99:59 Minutes</div>
+                    <div className=""> <CountdownTimer mcqTime={mcqData.length} /> </div>
                 </div>
             </div>
         </div>

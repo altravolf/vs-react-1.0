@@ -5,6 +5,7 @@ import QuizNavbar from "../QuizNavbar/QuizNavbar";
 import QuizQuestions from "../QuizQuestions/QuizQuestions";
 import QuizTiles from "../QuizTiles/QuizTiles";
 import QuizModal from "../QuizModal/QuizModal";
+import { enqueueSnackbar } from "notistack";
 
 function ScholarshipQuiz() {
     const { mcqData, setResult, setQuiz } = useContext(SiteDataContext);
@@ -12,6 +13,7 @@ function ScholarshipQuiz() {
     const onSubmitResult = () => {
         setResult(true);
         setQuiz(false);
+        enqueueSnackbar('Test Submitted Successfully!', { variant: 'success', autoHideDuration: 2000, anchorOrigin: { vertical: 'top', horizontal: 'center' } });
     }
 
     return (
