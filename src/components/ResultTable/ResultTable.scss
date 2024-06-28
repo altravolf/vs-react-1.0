@@ -1,0 +1,15 @@
+.ResultTable {
+    table {
+        tr {
+            td {
+                &:nth-of-type(odd) {
+                    text-align: left;
+                }
+
+                &:nth-of-type(even) {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
