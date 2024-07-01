@@ -13,12 +13,13 @@ function ScholarshipEntry() {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const { setEntry, setQuiz } = useContext(SiteDataContext);
+    const { setEntry, setQuiz, setStudentInfo } = useContext(SiteDataContext);
 
     const onFormSubmit = (data) => {
         enqueueSnackbar(`Welcome ${data.name}!`, { variant: 'success', autoHideDuration: 2000, anchorOrigin: { vertical: 'top', horizontal: 'center' } });
         setEntry(false);
         setQuiz(true);
+        setStudentInfo(data);
         window.scrollTo(0, 0);
     }
 
