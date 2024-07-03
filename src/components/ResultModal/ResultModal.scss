@@ -1,0 +1,17 @@
+@import "../../assets/scssVariable.scss";
+
+.ResultModal {
+    .list-group {
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+
+    .correct {
+        color: $successful-color;
+    }
+
+    .incorrect {
+        color: $danger-color;
+    }
+
+}
