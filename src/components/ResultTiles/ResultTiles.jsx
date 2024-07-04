@@ -13,9 +13,14 @@ function ResultTiles({ mcqData, selectedAnswer }) {
                     const tileClass = `tile ${isCorrect ? "correct" : ""} ${isIncorrect ? "incorrect" : ""} rounded-5`;
                     return (
                         <>
-                            <div className={tileClass} key={questionIdx} data-bs-toggle="modal" data-bs-target={`#modal-${mcq.id}`}>
-                                {mcq.id}
-                            </div>
+                            {mcq && (
+                                <div className={tileClass}
+                                    key={questionIdx}
+                                    data-bs-toggle="modal"
+                                    data-bs-target={`#modal-${mcq.id}`}>
+                                    {mcq.id}
+                                </div>
+                            )}
                             <ResultModal mcq={mcq} selectedAnswer={selectedAnswer} />
                         </>
                     );
