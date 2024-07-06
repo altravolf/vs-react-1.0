@@ -12,8 +12,7 @@ const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 function CountdownTimer({ mcqTime }) {
     const { mcqData, selectedAnswer, studentInfo, setResult, setQuiz } = useContext(SiteDataContext);
 
-    // const totalTime = mcqTime * 60;
-    const totalTime = 60;
+    const totalTime = mcqTime * 60;
     const [timeLeft, setTimeLeft] = useState(totalTime);
 
     const sendEmail = (correctAnswers, wrongAnswers, skippedAnswers, totalQuestions, totalMarks) => {
