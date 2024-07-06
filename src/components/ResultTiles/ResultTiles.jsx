@@ -6,7 +6,7 @@ function ResultTiles({ mcqData, selectedAnswer }) {
     return (
         <div className="ResultTiles d-flex flex-wrap gap-3 justify-content-center">
             {
-                mcqData.map((mcq, questionIdx) => {
+                mcqData.map((mcq) => {
                     const hasSelectedAnswer = selectedAnswer[mcq.id] !== undefined;
                     const isCorrect = selectedAnswer[mcq.id] === mcq.answer;
                     const isIncorrect = hasSelectedAnswer && !isCorrect;
@@ -15,7 +15,7 @@ function ResultTiles({ mcqData, selectedAnswer }) {
                         <>
                             {mcq && (
                                 <div className={tileClass}
-                                    key={questionIdx}
+                                    key={`tile-${mcq.id}`}
                                     data-bs-toggle="modal"
                                     data-bs-target={`#modal-${mcq.id}`}>
                                     {mcq.id}
