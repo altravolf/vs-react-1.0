@@ -20,12 +20,18 @@
             .btn-container {
                 a {
                     @include transition-in;
+                    // box-shadow: 0px 3px 12px 0px $color-4;
+                    background-color: $color-4;
+                    color: white;
+                    font-weight: bold;
+                    border: 1px solid $white;
+                    border-radius: 2rem;
 
                     &:hover {
                         background-color: $color-2;
                         color: $white;
-                        border-radius: 2rem;
                         @include transition-out;
+                        border-radius: .3125rem;
                     }
                 }
             }

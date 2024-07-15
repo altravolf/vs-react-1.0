@@ -9,13 +9,13 @@ function Scholarship() {
                     <div className="display-5 fw-bold title">
                         <span >Scholarship </span> For Every <span> Bright Student</span>
                     </div>
-                    <div className="lead pt-2 fs-4">
+                    <div className="lead pt-2 fs-4 fw-normal">
                         <p>
                             We are thrilled to announce our Scholarship Program. Every student can join our family to acheive their goals.
                         </p>
                     </div>
                     <div className="btn-container">
-                        <Link to="/scholarshipTest" className="btn btn-light fs-5 px-4 "> Apply Now </Link>
+                        <Link to="/scholarshipTest" className="btn  fs-5 px-4 "> Apply Now </Link>
                     </div>
                 </div>
                 <div className="flex-right">
