@@ -83,26 +83,26 @@ function ContactForm() {
                         <div className="row">
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="from_name">Full Name:</label>
-                                <input className={"form-control" + (errors.from_name ? " error" : "")} placeholder={errors.from_name ? "Enter your name" : "e.g. Hitest Sorout"} {...register("from_name", { required: true })} />
+                                <input className={"form-control" + (errors.from_name ? " error" : "")} placeholder={errors.from_name ? "Enter your name" : "e.g.: Hitest"} {...register("from_name", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="email_id">Email:</label>
                                 <input type="email" className={"form-control" + (errors.email_id ? " error" : "")}
-                                    placeholder={errors.email_id ? "Enter your email" : "e.g. abcde@example.com"}
+                                    placeholder={errors.email_id ? "Enter your email" : "e.g.: abcd@xyz.com"}
                                     {...register("email_id", { required: true })} />
                             </div>
 
                             <div className="form-group my-2 col-12 col-lg-4">
                                 <label className="form-label" htmlFor="mobile_no">Mobile No.:</label>
-                                <input className={"form-control" + (errors.mobile_no ? " error" : "")} placeholder={errors.mobile_no ? "Enter your 10 digit mobile number" : "e.g. 8708331920"}  {...register("mobile_no", { required: true, maxLength: 10, minLength: 10, })} />
+                                <input className={"form-control" + (errors.mobile_no ? " error" : "")} placeholder={errors.mobile_no ? "Enter your 10 digit mobile number" : "e.g.: 870833****"}  {...register("mobile_no", { required: true, maxLength: 10, minLength: 10, })} />
                             </div>
                         </div>
 
                         <div className="form-group my-2">
                             <label className="form-label" htmlFor="message">Message:</label>
                             <textarea rows="5" className={"form-control" + (errors.message ? " error" : "")}
-                                placeholder={errors.message ? "Enter your message" : "Write your message..."}
+                                placeholder={errors.message ? "Enter your message" : "Write your message here..."}
                                 {...register("message", { required: true })} />
                         </div>
 

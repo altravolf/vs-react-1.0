@@ -1,6 +1,5 @@
 import StudentGrid from "../components/StudentGrid/StudentGrid";
-import PageHeading from "../components/PageHeading/PageHeading";
-import SectionHeading from "../components/SectionHeading/SectionHeading";
+
 import { Helmet } from "react-helmet-async";
 
 function Students() {
@@ -15,7 +14,7 @@ function Students() {
                 <link rel="canonical" href={window.location.href} />
             </Helmet>
 
-            {window.location.pathname === "/students" ? <PageHeading headingText={"Our Students"} /> : <SectionHeading headingText={"Our Students"} />}
+
 
             <StudentGrid />
         </div>

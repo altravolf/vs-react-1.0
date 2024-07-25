@@ -10,6 +10,7 @@ function ErrorPage() {
             <Helmet>
                 <title>404 Not Found</title>
                 <meta name="author" content="Altra Volf" />
+                <link rel="canonical" href={window.location.href} />
             </Helmet>
 
             <NotFound />

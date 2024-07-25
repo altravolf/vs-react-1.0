@@ -32,19 +32,16 @@ function AboutUs() {
                             </p>
                         </div>
                     </div>
-
                 </div>
-
-
 
                 <div className="row  justify-content-center px-3 px-md-0">
                     {cardData.map((el, i) => {
                         const cardClassName = `card-${i} text-white`
                         return <div className="col-12 col-md-4 my-3" key={i} data-aos="zoom-in-down" >
                             <div className={`card ${cardClassName} shadow h-100`}>
-                                <img src={`/img/card-${i}.webp`} className="card-img-top" alt="..." />
+                                <img src={`/img/card-${i}.webp`} loading="lazy" className="card-img-top" alt="..." title={el.title} />
                                 <div className="card-body">
-                                    <h5 className="card-title">{el.title}</h5>
+                                    <h3 className="card-title h5">{el.title}</h3>
                                     <p className="card-text ">{el.des}</p>
                                 </div>
                             </div>
