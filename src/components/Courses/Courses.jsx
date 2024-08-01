@@ -18,9 +18,9 @@ function Courses() {
                 <div className="row justify-content-center px-3 px-md-0">
 
                     {courses.map((el, i) => {
-                        return <div className="col-12 col-lg-4 col-md-6 my-3 cursor-pointer" data-aos="zoom-in-down" data-aos-out="zoom-in-up" key={i}>
+                        return <div className="col-12 col-lg-4 col-md-6 my-3 cursor-pointer" title={el.courseTitle + " " + el.price} data-aos="zoom-in-down" data-aos-out="zoom-in-up" key={i}>
                             <div className="card h-100" >
-                                <img src={`/img/course-${i}.jpg`} className="card-img-top" alt="{i}" />
+                                <img src={`/img/course-${i}.jpg`} className="card-img-top img-size" alt={el.courseTitle} />
 
                                 <div className="card-body">
                                     <div className="d-flex justify-content-between flex-wrap mb-2 align-items-center">

@@ -21,7 +21,7 @@ function StudentGrid() {
                     {studentData.map((student, index) => (
                         <div className="col-12 col-lg-4 col-md-6 my-3 cursor-pointer" data-aos="zoom-in-down" data-aos-out="zoom-in-up" key={index}>
                             <div className="card h-100 rounded-3 ">
-                                <img src={`/img/${student.img}.webp`} title={student.name} className="card-img-top object-fit-fill" alt="..." />
+                                <img src={`/img/${student.img}.webp`} title={student.name} className="card-img-top object-fit-fill" alt={student.name} />
                                 <div className="card-body">
                                     <h5 className="card-title text-center fs-4 text-capitalize">{student.name}</h5>
                                     <p className="card-text">{student.description}</p>
