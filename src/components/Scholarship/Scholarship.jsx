@@ -19,7 +19,7 @@ function Scholarship() {
                     </div>
                 </div>
                 <div className="flex-right">
-                    <img className="mw-100" src="/img/scholarship.webp" alt="Scholarship woman image, VS Sehrawat Institute" />
+                    <img className="mw-100" src="/img/scholarship.webp" loading="lazy" alt="Scholarship woman image, VS Sehrawat Institute" />
                 </div>
             </div>
         </div>

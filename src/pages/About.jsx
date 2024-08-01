@@ -7,7 +7,7 @@ function About() {
         <>
             <Helmet>
                 <title>About VS Sehrawat Institute | Our Mission and Vision</title>
-                <meta name="description" content="Learn about VS Sehrawat Institute, our mission, vision, and values. Discover how we are dedicated to providing exceptional education and creating opportunities for our students." />
+                <meta name="description" content="Learn about VS Sehrawat Institute's mission and vision. Established in 2015, we provide quality education and create opportunities for student success." />
                 <meta name="author" content="Altra Volf" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href={window.location.href} />
