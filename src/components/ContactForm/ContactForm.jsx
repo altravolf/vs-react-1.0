@@ -47,9 +47,9 @@ function ContactForm() {
                     <h2 className="text-center">Quickly Reach Us</h2>
 
                     <div className=" d-flex justify-content-center align-items-center gap-5 mt-4">
-                        <div className="action-icon">
+                        <div className="action-icon" title="Call Us">
 
-                            <a href="tel:8307747460" className=" text-decoration-none">
+                            <a href="tel:8708331920" className=" text-decoration-none">
                                 <div className="icon">
                                     <FontAwesomeIcon icon={faPhone} />
                                 </div>
@@ -59,7 +59,7 @@ function ContactForm() {
                             </div>
                         </div>
 
-                        <div className="action-icon">
+                        <div className="action-icon" title="Email Us">
 
                             <a href="mailto:contact@vs-sehrawat-institute.in" className=" text-decoration-none">
                                 <div className="icon">

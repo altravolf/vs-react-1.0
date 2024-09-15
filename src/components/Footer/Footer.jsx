@@ -25,7 +25,7 @@ function Footer() {
                             Contact us:
                         </div>
                         <p><strong>Whatsapp:</strong> <span> +91 90503 30957 </span></p>
-                        <p><strong>Phone:</strong> <span> +91 83077 47460 </span></p>
+                        <p><strong>Phone:</strong> <span> +91 87083 31920 </span></p>
                         <p><strong>Email:</strong> <span> contact@vs-sehrawat-institute.in </span></p>
                     </div>
                 </div>
