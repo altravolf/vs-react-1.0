@@ -16,7 +16,7 @@ function Footer() {
                             Address:
                         </div>
                         <p>V.S. Sehrawat Institute</p>
-                        <p>3rd Floor, Near Bata Showroom <br />
+                        <p>3rd Floor, Above Bata Showroom <br />
                             Rashulpur Chowk, Palwal <br />
                             Haryana (121102)</p>
                     </div>
