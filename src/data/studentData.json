@@ -8,7 +8,14 @@
     {
         "name": "Akil Khan (MBBS)",
         "img": "akil_khan",
-        "description": "Akil's dedication to his MBBS studies at V.S. Sehrawat Institute is noteworthy."
+        "description": "Akil's dedication to his MBBS studies at V.S. Sehrawat Institute is noteworthy.",
+        "review": ""
+    },
+    {
+        "name": "Harsh (MBBS)",
+        "img": "harsh",
+        "description": "Harsh’s strong NEET foundation from V.S. Sehrawat Institute has prepared him well for his MBBS studies.",
+        "review": "The support and guidance from V.S. Sehrawat Institute were instrumental in achieving my NEET goals. It set me up perfectly for MBBS!"
     },
     {
         "name": "Rohan (MBBS)",
@@ -39,5 +46,23 @@
         "img": "nishant",
         "description": "Nishant’s NEET results are a clear indicator of the effective teaching strategies at V.S. Sehrawat Institute.",
         "review": "Achieving great NEET scores was a dream that V.S. Sehrawat Institute helped me realize. Grateful for the guidance!"
+    },
+    {
+        "name": "Gaurav (BAMS)",
+        "img": "gaurav",
+        "description": "Gaurav’s consistent efforts during NEET preparation at V.S. Sehrawat Institute have paved the way for his BAMS journey.",
+        "review": "The structured NEET coaching at V.S. Sehrawat Institute made all the difference. I’m confident about my future in BAMS!"
+    },
+    {
+        "name": "Pankaj (BAMS)",
+        "img": "pankaj",
+        "description": "Pankaj's dedication and the effective training at V.S. Sehrawat Institute led to impressive NEET results.",
+        "review": "I couldn’t have asked for better NEET preparation. The faculty at V.S. Sehrawat Institute guided me every step of the way. Excited to start BAMS!"
+    },
+    {
+        "name": "Jitender (BAMS)",
+        "img": "jitender",
+        "description": "Jitender’s success in NEET showcases the comprehensive coaching approach of V.S. Sehrawat Institute.",
+        "review": "Preparing for NEET at V.S. Sehrawat Institute was a game-changer. It gave me the confidence and skills needed to pursue BAMS successfully!"
     }
 ]

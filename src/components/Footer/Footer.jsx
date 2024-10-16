@@ -16,8 +16,8 @@ function Footer() {
                             Address:
                         </div>
                         <p>V.S. Sehrawat Institute</p>
-                        <p>Opposite Rahul Nursing Home <br />
-                            Near Bus Stand, Palwal <br />
+                        <p>3rd Floor, Near Bata Showroom <br />
+                            Rashulpur Chowk, Palwal <br />
                             Haryana (121102)</p>
                     </div>
                     <div className="col-md-4  col-12 content my-3">
@@ -38,7 +38,7 @@ function Footer() {
 
                 <div className="d-flex justify-content-center gap-2 ">
                     <div className="icon icon1">
-                        <a href="https://www.facebook.com/vssehrawatcoachinginstitute/" target="_blank" rel="noreferrer">
+                        <a href="https://www.facebook.com/vssehrawatinstitute/" target="_blank" rel="noreferrer">
                             {/* <i className="fa-brands fa-facebook-f"></i> */}
                             <FontAwesomeIcon icon={faFacebookF} />
                         </a>
@@ -50,7 +50,7 @@ function Footer() {
                     </div>
                     <div className="icon icon3">
                         {/* https://www.instagram.com/vssehrawatinsitute/ */}
-                        <a href="https://www.instagram.com/vssehrawatinsitute/" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/vssehrawatinstitute/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
 
