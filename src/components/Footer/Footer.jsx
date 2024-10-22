@@ -15,8 +15,7 @@ function Footer() {
                         <div className="title ">
                             Address:
                         </div>
-                        <p>V.S. Sehrawat Institute</p>
-                        <p>3rd Floor, Above Bata Showroom <br />
+                        <p>3rd Floor, Above Bata Shoe Store <br />
                             Rashulpur Chowk, Palwal <br />
                             Haryana (121102)</p>
                     </div>
