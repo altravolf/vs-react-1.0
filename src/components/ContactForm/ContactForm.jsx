@@ -49,7 +49,7 @@ function ContactForm() {
                     <div className=" d-flex justify-content-center align-items-center gap-5 mt-4">
                         <div className="action-icon" title="Call Us">
 
-                            <a href="tel:8708331920" className=" text-decoration-none">
+                            <a href="tel:9671330957" className=" text-decoration-none">
                                 <div className="icon">
                                     <FontAwesomeIcon icon={faPhone} />
                                 </div>

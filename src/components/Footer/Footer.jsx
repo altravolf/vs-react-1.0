@@ -25,7 +25,7 @@ function Footer() {
                             Contact us:
                         </div>
                         <p><strong>Whatsapp:</strong> <span> +91 90503 30957 </span></p>
-                        <p><strong>Phone:</strong> <span> +91 87083 31920 </span></p>
+                        <p><strong>Phone:</strong> <span> +91 96713 30957 </span></p>
                         <p><strong>Email:</strong> <span> contact@vs-sehrawat-institute.in </span></p>
                     </div>
                 </div>
@@ -39,7 +39,6 @@ function Footer() {
                 <div className="d-flex justify-content-center gap-2 ">
                     <div className="icon icon1">
                         <a href="https://www.facebook.com/vssehrawatinstitute/" target="_blank" rel="noreferrer">
-                            {/* <i className="fa-brands fa-facebook-f"></i> */}
                             <FontAwesomeIcon icon={faFacebookF} />
                         </a>
                     </div>
@@ -49,7 +48,6 @@ function Footer() {
                         </a>
                     </div>
                     <div className="icon icon3">
-                        {/* https://www.instagram.com/vssehrawatinsitute/ */}
                         <a href="https://www.instagram.com/vssehrawatinstitute/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
